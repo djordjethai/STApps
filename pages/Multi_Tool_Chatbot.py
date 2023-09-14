@@ -299,6 +299,7 @@ def main():
         st.image(image, 
                  caption='Ova aplikacija radi iterativno - možete odmah ukucati naredno pitanje!',
                  width=200)
+        # test 1111
         x = ["🎭", "🐯", "👺", "👻", "😸", "🤓", "🤡", "🦄", "🧟‍♀️", "☘️"]
         st.write(f"{x[randint(0, len(x) - 1)]} Ova aplikacija radi iterativno - možete odmah ukucati naredno pitanje!")
         client.create_feedback(st.session_state.run_id, "our_evaluation", score=st.session_state.our_score, comment=st.session_state.our_reasoning)
