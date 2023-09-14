@@ -1,0 +1,13 @@
+Šta je Prompt kod semantičke AI pretrage?
+U slučaju definisanja upita veštačkoj inteligenciji koristi se termin prompt(s), odnosno prompt engineering: To je koncept koji uključuje otkrivanje upita (inputa, instrukcija, opisa, pitanja) koji daju poželjne ili korisne rezultate.
+Google i Chat GPT: Kakav će biti odgovor Gugla (Alphabet) na OpenAI izazov? Šta je semantička pretraga?
+Ukratko: Chat GPT nije “ubica Gugla”!
+Kompaniji Alphabet (Google) se prvi put, od kada je nastala sredinom devedesetih godina, dešava direktan i ekstremno ozbiljan napad na osnovu njihovog biznisa – pretragu.
+Gugl ima suviše resursa – podataka, znanja, ljudi i novca da ne bi odgovorio na ovaj izazov na adekvatan način. Šta će se desiti i kako, to ćemo videti uskoro.
+Mnogo osoba u svetu koje koriste internet i dalje ne zna da postoji Chat GPT
+Chat GPT je besplatan u fazi testiranja, posle toga neće više biti besplatan (videćemo koji će model poslovanja i zarade upotrebiti OpenAI nakon zatvaranja besplatnog perioda testiranja)
+Većina osoba je naviknuta na Gugl pretragu. Ovaj tip pretrage ima dosta prednosti.
+Gugl će sigurno napraviti svoju verziju AI pretrage koja parira Chat GPT modelu.
+Android Vs. iOS primer
+Da bismo razumeli kako funkcioniše Gugl u odnosu na konkurenciju, možda je veoma dobar primer pojava operativnog sistema Android. Gugl je započeo kreiranje ovog operativnog sistema 2005. g.
+

@@ -1,0 +1,45 @@
+When working with a WordPress child theme and WooCommerce, it's a good practice to make CSS customizations in your child theme's styles rather 
+than modifying the plugin's files directly. This way, your changes will be preserved even when the plugin is updated. Here's how you can include 
+changes to WooCommerce CSS in your child theme:
+
+1. **Create or Locate Your Child Theme:**
+   If you've already set up a child theme, great! If not, create a child theme by creating a new directory within your WordPress themes directory 
+   and adding the necessary files (`style.css`, `functions.php`, etc.). If you're unsure how to do this, you can find guides online.
+
+2. **Enqueue Your Child Theme's Stylesheet:**
+   Open the `functions.php` file of your child theme and use the `wp_enqueue_style` function to enqueue your child theme's stylesheet. 
+   Make sure to include the WooCommerce stylesheet as well. Here's an example of how to enqueue styles in your child theme's `functions.php`:
+
+   ```php
+   function child_theme_enqueue_styles() {
+       // Enqueue parent theme stylesheet
+       wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+
+       // Enqueue child theme stylesheet
+       wp_enqueue_style('child-style', get_stylesheet_uri(), array('parent-style'));
+
+       // Enqueue WooCommerce stylesheet
+       wp_enqueue_style('woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array('child-style'));
+   }
+   add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');
+   ```
+
+3. **Create Your WooCommerce CSS File:**
+   In your child theme's directory, create a file named `woocommerce.css`. This is where you'll put your custom WooCommerce CSS.
+
+4. **Add Custom CSS to Your WooCommerce CSS File:**
+   Open the `woocommerce.css` file you just created and add your custom CSS rules. You can target WooCommerce elements using specific classes 
+   or IDs to apply your desired changes.
+
+5. **Update Your Child Theme's Stylesheet (Optional):**
+   If you prefer to organize your styles in the main child theme `style.css` rather than a separate file, you can directly 
+   add your custom WooCommerce CSS rules there.
+
+6. **Activate Your Child Theme:**
+   Make sure your child theme is activated in the WordPress admin dashboard.
+
+By following these steps, your custom WooCommerce CSS will be included in your child theme and won't be overridden by plugin updates. 
+This approach separates your customizations from the plugin's files, ensuring that your changes are maintained even when WooCommerce is updated.
+
+Remember that when targeting specific WooCommerce elements with your custom CSS, you might need to use more specific selectors or 
+add `!important` to your rules in some cases to ensure your styles are applied correctly.

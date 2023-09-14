@@ -1,0 +1,8 @@
+Kada se pojavio iPhone 2007. g., Google je obustavio aktuelni razvoj Androida, i ubrzano je unapredio postojeću radnu verziju softvera, koristeći resurse koje su do tada izgradili. 05.11.2007. g. objavljena je prva verzija Androida za developere (programere). Android je najveći operativni sistem za mobilne uređaje.
+Šta je semantička pretraga? Chat GPT je alat za semantičku pretragu!
+Kod klasične pretrage, kada postavite upit dobijate milione rezultata na pretraživačima kao što je Gugl. Kod semantičke pretrage (pretraga u odnosu na značenje upita), dobijate jednoznačni (jedan) odgovor na upit.
+Google je 2010. g. najavio da polako kreće sa implementacijom semantičke pretrage u svoj pretraživač, i da neće imati kompletnu semantičku pretragu pre 2020. g. Semantički algoritam Google RankBrain je pušten za Gugl pretrage 2015. g.
+novak-djokovic-rankbrain-vs-chat gpt
+Kako vreme prolazi, Gugl prepoznaje značenje sve većeg broja upita, što se vidi na primeru gornje slike, kada se ukuca upit za Novaka Đokovića.
+Razlika između RankBrain algoritma i Chat GPT-a je u tome što Chat GPT razume sve što ga pitate (na velikom broju jezika, uključujući i ovdašnje jezike) i odgovara na nivou razgovora (chat – više povezanih upita). RankBrain razume pojedinačne upite, ne sve.
+Gugl je imao u planu da uskoro izađe sa svojom verzijom AI robota, ali je odložio lansiranje zbog pojave Chat GPT-a (veoma slična situacija kao i u slučaju Android OS-a).

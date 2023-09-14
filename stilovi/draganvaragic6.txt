@@ -1,0 +1,5 @@
+Već postoje primeri knjiga koje su za manje od jednog dana kreirane uz pomoć Chat GPT-a. Danas imate mnoštvo saveta kako koristiti Chat GPT za kreiranje sadržaja, za programiranje, za SEO poslove, itd. U slučaju korišćenja ovakvih inteligentnih sistema za kreiranje autorskih dela, postoji ozbiljan problem sa autorskim pravima i njihovom proverom, bar za sada.
+Tek ćemo biti svedoci različitih negativnih efekata, naročito u segmentu povrede autorskih prava, koje će proizvesti napredni softveri za semantičku pretragu.
+Mišljenja sam da će neke osobe izgubiti posao zbog pojave ovakvih softvera, jer se jednostavno neće snaći (tzv. “gubitnici tranzicije”). Sa druge strane, mislim da će se pojaviti i neki novi poslovi sa upotrebom ovog softvera (npr. Semantic Search Manager – osoba koja zna da postavlja prava pitanja i da strukturira odgovore iz različitih oblasti u upotrebljive šablone za ostale zaposlene).
+Već su se pojavila AI umetnička dela (umetnost koju stvara veštačka inteligencija), i mislim da će toga biti sve više. Takođe mislim da će mnogi to pokušati da iskoriste tako što će takva dela prisvojiti za sebe – kao da su oni autori.
+

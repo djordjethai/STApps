@@ -1,0 +1,12 @@
+
+{opis2}. 
+
+Write a summary for this text:
+         
+{text} 
+
+Use markdown format. Format the output with a H1, H2, H3 etc.  Write in Serbian language. Do not use Croatian language.
+
+CONCISE SUMMARY:
+
+

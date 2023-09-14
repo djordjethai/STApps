@@ -1,0 +1,8 @@
+Kada bi primenu AI u poslovanju poslagali u par operativnih koraka to bi izgledalo ovako:
+1.	Upoznavanje top menadžmenta sa mogućnostima AI. Šta AI jeste a šta nije.
+2.	Kreiranje strategije digitalne transformacije bazirane na automatizaciji uz pomoć AI.
+3.	Odabir ključnih ljudi koji će voditi proces.
+4.	Definisanje potreba za automatizacijom odnosno pametan odabir procesa gde će veštačka inteligencija doneti najveće benefite.
+5.	Priprema ulaznih podataka za proces treniranja veštačke inteligencije.
+6.	Odabir partnera koji će biti zaduženi za implementaciju projekta.
+

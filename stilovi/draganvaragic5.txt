@@ -1,0 +1,7 @@
+Neke od posledica pojave naprednih sistema semantičke (AI/ML) pretrage, kao što je Chat GPT
+Važno je znati da veštačka inteligencija (Artificial Intelligence – AI), njeno samostalno učenje (Machine Learning – ML) i semantička pretraga (semantic search) postoje više od 15 godina. Softverski sistemi kao što su npr. Apple Siri ili OpenAI Chat GPT su napredni AI/ML sistemi.
+Pojava za sada javno dostupnog Chat GPT-a predstavlja samo početak naglog razvoja naprednih sistema semantičke pretrage.
+Na osnovu promena u svetu, u našem životu i u našem ponašanju pojavom interneta i društvenih mreža, možemo donekle pretpostaviti šta sve može doneti revolucionarna pojava naprednih sistema za semantičku pretragu:
+Još veći broj lažnih sertifikacija, diploma, prepisivanja radova, itd., koji su posledica velikih problema sa aktuelnim sistemom obrazovanja u celom svetu.
+Još veći broj značajno uverljivijih “stručnjaka opšte prakse”. Ovi “fejkeri” će dobro da nauče kako da postavljaju pitanja sistemima kao što je Chat GPT, kao što to trenutno rade na Guglu, bez realnog poznavanja oblasti na osnovu prethodno usvojenih sistemskih znanja i iskustava.
+

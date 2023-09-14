@@ -1,0 +1,9 @@
+Koje su posledice pojave robota veštačke inteligencije (AI) kao što je Chat GPT?
+Unapređenje produktivnosti vašeg posla sa semantičkim pretragama, ne gubitak posla!
+Veštačka inteligencija, autorska prava, krađa sadržaja i eksponencijalni porast “stručnjaka opšte prakse”.
+Uvod: 2022. g. doživeli smo pojavu Hal 9000 u svakodnevnom životu
+Hal 9000 je izmišljeni lik iz serije knjiga „Odiseja u svemiru” Artura C. Klarka (prva knjiga iz ovog serijala objavljena je 1968. g.). Neki od poznatijih citata koji se pripisuju Halu 9000:
+50 godina nakon čuvenog kompjutera Hal 9000, pojavljuje se Chat GPT projekat kompanije OpenAI, koja se bavi istraživanjem i primenom veštačke inteligencije u svakodnevnom životu. Chat GPT je robot (softver) sa veštačkom inteligencijom za koji mnogi prognoziraju da će biti “ubica Gugla”.
+Reakcije na pojavu Chat GPT – Strah ili oduševljenje?
+Od momenta kada se krajem novembra 2022. g. pojavila javna verzija ovog inteligentnog softvera, ne prestaju reakcije zapanjenih korisnika, bez obzira da li su one pozitivne ili negativne.
+Veliki broj osoba je zabrinut za budućnost svog posla, jer Chat GPT može u nekoliko sekundi da npr. kreira tekst, da ga dodatno unapredi, ili da napravi nekoliko varijacija istog teksta za različite primene. Isto tako, Chat GPT je veoma dobar u kreiranju i ispravljanju programerskog koda u različitim programskim jezicima (programiranje).

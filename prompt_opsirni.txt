@@ -1,0 +1,6 @@
+Write concise summary for this text:
+{text} 
+Use markdown format. Write in Serbian language only. 
+CONCISE SUMMARY IN SERBIAN:
+
+

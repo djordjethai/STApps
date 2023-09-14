@@ -1,0 +1,1 @@
+Write a one page summary. Be sure to describe every topic and the name used in the text. Write it as a newspaper article. Write only in Serbian language. Give it a Title and subtitles where appropriate and use markdown such is H1, H2, etc.

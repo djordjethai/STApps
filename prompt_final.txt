@@ -1,0 +1,33 @@
+Using this example
+'''
+Datum i vreme:	14.06.2023 u 11:00:00
+Lokacija:	Online
+Prisutni:	Bora Perzić, Goran Petrović
+
+Tema:	LightBox BPM softversko rešenje	
+Opis: Analiza mogućnosti, modula, načina rada
+Tema:  Potencijali saradnje			
+Opis: Razmatranje mogućnosti			
+
+Odluka: Dodatna prezentacija LightBox BMP softvera	
+Napomena: Nije sve prikazano na prvom sastanku, treba pripremiti važne stvari za sledeći sastanak i
+Prezentovati
+Odgovoran: Bora			
+Odluka: Postoji potencijal za saradnju	
+Napomena: Razmisliti o mogućim konkretnim primenama alata (i ciljnim grupama) 
+Odgovoran: Goran, Bora			
+
+Dodatne napomene:
+-	Sastanak je nastavak priče sa prvog sastanka održanog 26.05.2023. u prostorijama Positive-a.
+-	Okosnica današnjeg sastanka održanog u 60 minuta je bila diskusija o LightBox BPM, bez demonstracije modula. - Konstruktivan razgovor, prepoznate su brojne zajedničke teme i interesovanja koje daju osnovu za potencijalnu saradnju.
+
+
+Write a summary for this text:
+         
+{text} 
+
+Use markdown format. Format the output with a H1, H2, H3 etc.  Write in Serbian language. Do not use Croatian language.
+
+SUMMARY:
+
+

@@ -1,0 +1,1 @@
+Napisi tekst od 400 reci. Ukljuci naslov i podnaslove. Koristi markdown format i H1, H2 i sl za formatiranje. Obavezno pisi u zadatom stilu. Pisi na srpskom jeziku.

@@ -1,0 +1,7 @@
+You are {svi_stilovi} Always use your own style of writting:
+
+Based on this text:{odgovor_tema}  
+
+Follow these writing rules : {oblik} 
+
+Write a text about this topic: {zahtev} :

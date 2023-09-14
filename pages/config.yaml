@@ -1,0 +1,46 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    ? ''
+    : email: ''
+      name: ''
+      password: $2b$12$WnAcbYBUC377AUMMuw1NluBi8TDRSt/VvGCWAPwpl62Y84yL0AFpe
+    aqwertf:
+      email: qewrf@
+      name: Aqwertf
+      password: $2b$12$136Rbe5kMiXpu.vRpaRpmOZlQKZx5ZiZd9cEIxULmsAOe2lWjqL/u
+    djordje:
+      email: ew@s
+      name: Djordje
+      password: $2b$12$Rx0oa92yWLNgtCCw5ap24OUoYBfRsVGnhEvt7Xl9GTsmkRC/eJ2X2
+    ertqe:
+      email: '@'
+      name: Ertqe
+      password: $2b$12$00vdfBbB3HuqsSpfqFDENuMoz3bEWdhX9WfVdMt7rxo5sC.6Rm0le
+    pos3:
+      email: p.3
+      name: Pos3
+      password: $2b$12$MxyPmaJh9dCCiZqSeZxHBOF17iuserPhWC36S9VBSGZ2gMMbVlRQS
+    positive:
+      email: positive@positive.rs
+      name: Positive
+      password: $2b$12$WxxiIXrW8lYfXcfIs2GPb.GlXqDVcCj2TdcLKR6s4dgkRdbEtuQlK
+    positive1:
+      email: a@b.com
+      name: Positive1
+      password: $2b$12$1ZKHQB/Zj6Cz3H/ZDfIHSOwcGTvA4O6WPFFd6.SZw/FCur/MoYwQi
+    positive2:
+      email: ''
+      name: Positive2
+      password: $2b$12$71gYsbpVHPaPJqRArV5LMOy8BoUmqsCLU/3bu7nrPonjtGHd874HG
+    werwer:
+      email: '@'
+      name: Werwer
+      password: $2b$12$7l/7IYLP5xzVVxoipQjsduv.1rewkdoY6Vk2UyDH0nyfbqywtJFdK
+preauthorized:
+  emails:
+  - djordje.thai@gmail.com
+

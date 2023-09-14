@@ -1,0 +1,12 @@
+
+{opis1}. 
+Napisi sazetak ovog teksta na srpskom jeziku:
+
+           
+{text} 
+           
+KONCIZAN SAZETAK NA SRPSKOM:
+
+
+
+

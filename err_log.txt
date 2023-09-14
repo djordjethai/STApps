@@ -1,0 +1,797 @@
+ OK scraping https://positive.rs: 1
+ OK scraping https://positive.rs/resursi/bits-koncept/infrastructure-as-a-service/: 2
+ OK scraping https://positive.rs/: 3
+ OK scraping https://positive.rs/partnerstva/cisco-premier-certified-partner/: 4
+ OK scraping https://positive.rs/resursi/bits-koncept/outsourcing/: 5
+ OK scraping https://positive.rs/blog/kuci-sam-i-nisam-kod-kuce-online-otac-muz-zaposleni/: 6
+ OK scraping https://positive.rs/o-nama/sertifikati-kompanije/: 7
+ OK scraping https://positive.rs/resursi/: 8
+ OK scraping https://positive.rs/o-nama/: 9
+ OK scraping https://positive.rs/o-nama/politika-upravljanja-uslugama/: 10
+ OK scraping https://positive.rs/o-nama/politika-bezbednosti-informacija/: 11
+ OK scraping https://positive.rs/o-nama/kompanija/: 12
+ OK scraping https://positive.rs/partnerstva/microsoft-silver-partner/: 13
+ OK scraping https://positive.rs/zaposleni/martina-hirsman/: 14
+ OK scraping https://positive.rs/zaposleni/miljan-radanovic/: 15
+ OK scraping https://positive.rs/managed-services/optimizacija-stampe/: 16
+ OK scraping https://positive.rs/o-nama/partneri: 17
+ OK scraping https://positive.rs/partnerstva/schrack-certified-partner/: 18
+ OK scraping https://positive.rs/resursi/najcesca-pitanja-i-problemi-it-korisnika/: 19
+ OK scraping https://positive.rs/ugovor-o-poverljivosti/: 20
+ OK scraping https://positive.rs/solutions/implementacija-resenja-i-migracija-serverskih-i-desktop-platformi/: 21
+ OK scraping https://positive.rs/o-nama/karijera/: 22
+ OK scraping https://positive.rs/o-nama/politika-upravljanja-rizikom/: 23
+ OK scraping https://positive.rs/uslovi-koriscenja/: 24
+ OK scraping https://positive.rs/konsalting-i-edukacija/obuke-u-oblasti-kvaliteta-i-informacionih-tehnologija/: 25
+ OK scraping https://positive.rs/managed-services/rent-it/: 26
+ OK scraping https://positive.rs/konsalting-i-edukacija/: 27
+ OK scraping https://positive.rs/konsulting-i-edukacija/biznis-proces-modeling-i-reinzenjering/: 28
+ OK scraping https://positive.rs/konsulting-i-edukacija/bis-bezbednost-informacionih-sistema/: 29
+ OK scraping https://positive.rs/o-nama/politika-kvaliteta/: 30
+ OK scraping https://positive.rs/blog/ekonomija-blog/ekonomske-mere-sta-to-sustinski-znaci-za-privrednike/: 31
+ OK scraping https://positive.rs/konsalting-i-edukacija/analiza-stanja-informacionog-sistema/: 32
+ OK scraping https://positive.rs/resursi/bits-koncept/digitalna-transformacija/: 33
+ OK scraping https://positive.rs/konsalting-i-edukacija/edukacija-zaposlenih/: 34
+ OK scraping https://positive.rs/managed-services/pc-radno-mesto/: 35
+ OK scraping https://positive.rs/o-nama/tim/: 36
+ OK scraping https://positive.rs/zaposleni/nenad-kadic/: 37
+ OK scraping https://positive.rs/zaposleni/nina-lalovic/: 38
+ OK scraping https://positive.rs/zaposleni/timea-bosnai/: 39
+ OK scraping https://positive.rs/zaposleni/djerdj-bacanji/: 40
+ OK scraping https://positive.rs/zaposleni/dr-goran-petrovic/: 41
+ OK scraping https://positive.rs/zaposleni/milica-malinovic/: 42
+ OK scraping https://positive.rs/zaposleni/boris-lazic/: 43
+ OK scraping https://positive.rs/konsalting-i-edukacija/bis-bezbednost-informacionih-sistema/: 44
+ OK scraping https://positive.rs/zaposleni/ilija-basica/: 45
+ OK scraping https://positive.rs/o-nama/poslovni-podaci/: 46
+ OK scraping https://positive.rs/solutions/data-centar-reinzenjering/: 47
+ OK scraping https://positive.rs/o-nama/kontakt/: 48
+ OK scraping https://positive.rs/solutions/: 49
+404 for https://positive.rs/solutions/sofware-asset-management/
+ OK scraping https://positive.rs/solutions/sofware-asset-management/: 50
+ OK scraping https://positive.rs/blog/kuci-sam-i-nisam-kod-kuce-online-otac-muz-zaposleni/#respond: 51
+ OK scraping https://positive.rs/sertifikati/itil/: 52
+ OK scraping https://positive.rs/o-nama/sertifikati-kompanije: 53
+ OK scraping https://positive.rs/zaposleni/natasa-pilic/: 54
+ OK scraping https://positive.rs/o-nama/partneri/: 55
+ OK scraping https://positive.rs/sertifikati/iso-200012011/: 56
+ OK scraping https://positive.rs/enterprise-i-javni-sektor/: 57
+ OK scraping https://positive.rs/sertifikati/iso-223012012/: 58
+ OK scraping https://positive.rs/o-nama/referentna-lista/: 59
+ OK scraping https://positive.rs/o-nama/tim: 60
+ OK scraping https://positive.rs/resursi/najcesci-izazovi-it-korisnika/: 61
+500 for https://positive.rs/category/blog/
+ OK scraping https://positive.rs/category/blog/: 62
+ OK scraping https://positive.rs/enterprise-i-javni-sektor: 63
+500 for https://positive.rs/author/mradanovic/
+ OK scraping https://positive.rs/author/mradanovic/: 64
+ OK scraping https://positive.rs/zaposleni/bojan-gavrilovic/: 65
+ OK scraping https://positive.rs/konsalting-i-edukacija/edukacija-it-administratora/: 66
+ OK scraping https://positive.rs/managed-services/home-radno-mesto/: 67
+ OK scraping https://positive.rs/konsalting-i-edukacija/unapredjenje-vizuelnog-identiteta/: 68
+500 for https://positive.rs/category/blog/poslovanje-blog/
+ OK scraping https://positive.rs/category/blog/poslovanje-blog/: 69
+ OK scraping https://positive.rs/o-nama/sertifikati-zaposlenih/: 70
+404 for https://positive.rs/?post_type=emd_employee&p=3349
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3349: 71
+404 for https://positive.rs/?post_type=emd_employee&p=3335
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3335: 72
+404 for https://positive.rs/?post_type=emd_employee&p=222639
+ OK scraping https://positive.rs/?post_type=emd_employee&p=222639: 73
+ OK scraping https://positive.rs/managed-services/positive-voip/: 74
+ OK scraping https://positive.rs/solutions/data-loss-prevention/: 75
+ OK scraping https://positive.rs/blog: 76
+ OK scraping https://positive.rs/blog/have-a-positive-year-2020/: 77
+ OK scraping https://positive.rs/blog/poziv-na-konferenciju-bits-2019-its-business/: 78
+ OK scraping https://positive.rs/blog/poziv-na-konferenciju-bits-2019-its-business/#respond: 79
+ OK scraping https://positive.rs/bits-2019/: 80
+500 for https://positive.rs/category/medija-centar/novosti/bits-2019/
+ OK scraping https://positive.rs/category/medija-centar/novosti/bits-2019/: 81
+500 for https://positive.rs/author/dejana/
+ OK scraping https://positive.rs/author/dejana/: 82
+ OK scraping https://positive.rs/blog/digitalni-nomad-prva-godina/: 83
+ OK scraping https://positive.rs/blog/digitalni-nomad-prva-godina/#respond: 84
+ OK scraping https://positive.rs/blog/vanredan-dopis-za-pomoc-u-izgradnji-sistema-za-rad-na-daljinu/: 85
+ OK scraping https://positive.rs/blog/vanredan-dopis-za-pomoc-u-izgradnji-sistema-za-rad-na-daljinu/#respond: 86
+ OK scraping https://positive.rs/galerija/bits-event-2018/: 87
+ OK scraping https://positive.rs/resursi/blog/page/10/?et_blog: 88
+ OK scraping https://positive.rs/blog/stalno-usavrsavanje/: 89
+500 for https://positive.rs/author/sasa/
+ OK scraping https://positive.rs/author/sasa/: 90
+ OK scraping https://positive.rs/blog/positive-ipak-i-na-facebook-u/: 91
+ OK scraping https://positive.rs/blog/positive-ipak-i-na-facebook-u/#respond: 92
+ OK scraping https://positive.rs/blog/kupi-me-prodaj-me/: 93
+ OK scraping https://positive.rs/blog/posao-iili-zadovoljstvo-positive/: 94
+404 for https://positive.rs/2010/05/10/zasto-nemamo-facebook-fun-page-ili-grupu/
+ OK scraping https://positive.rs/2010/05/10/zasto-nemamo-facebook-fun-page-ili-grupu/: 95
+ OK scraping https://positive.rs/blog/promocija-vojvodanskog-ict-klastera-izvozna-sansa-srbije/: 96
+ OK scraping https://positive.rs/resursi/blog/page/11/?et_blog: 97
+ OK scraping https://positive.rs/blog/bezbednost-i-zastita-dece-na-internetu-i-deo-sajber-zlostavljanje-cyber-bullying-virtuelno-zlostavljanje/: 98
+ OK scraping https://positive.rs/blog/da-li-je-prosla-kriza-u-it-sektoru/: 99
+ OK scraping https://positive.rs/blog/naucno-strucni-rad-drustveni-mediji-u-poslovne-svrhe/: 100
+ OK scraping https://positive.rs/resursi/blog/page/13/?et_blog: 101
+ OK scraping https://positive.rs/resursi/blog/page/15/?et_blog: 102
+ OK scraping https://positive.rs/blog/kriza-i-it-industrija-konstruktivan-pogled/: 103
+ OK scraping https://positive.rs/blog/dokle-vise-copy-paste-shame-on-you/: 104
+ OK scraping https://positive.rs/blog/online-vs-offline-saopstenja-za-javnost/: 105
+ OK scraping https://positive.rs/blog/online-vs-offline-saopstenja-za-javnost/#respond: 106
+ OK scraping https://positive.rs/blog/sjeti-se-kako-smo-zivjeli-nekad/: 107
+ OK scraping https://positive.rs/blog/online-reputacija/: 108
+ OK scraping https://positive.rs/blog/online-reputacija/#respond: 109
+ OK scraping https://positive.rs/blog/primena-erp-resenja-u-srbiji/: 110
+ OK scraping https://positive.rs/blog/primena-erp-resenja-u-srbiji/#respond: 111
+ OK scraping https://positive.rs/blog/konferencija-e-trgovina-2009/: 112
+500 for https://positive.rs/category/blog/marketing-blog/
+ OK scraping https://positive.rs/category/blog/marketing-blog/: 113
+ OK scraping https://positive.rs/blog/positive-doo-exit-festival-again/: 114
+500 for https://positive.rs/author/marxer/
+ OK scraping https://positive.rs/author/marxer/: 115
+ OK scraping https://positive.rs/blog/koliko-smo-spremni-da-investiramo-u-znanje/: 116
+ OK scraping https://positive.rs/blog/koliko-smo-spremni-da-investiramo-u-znanje/#respond: 117
+ OK scraping https://positive.rs/blog/e-trgovina-2009-again/: 118
+ OK scraping https://positive.rs/blog/bezbednost-i-zastita-dece-na-internetu-i-deo-sajber-zlostavljanje-cyber-bullying-virtuelno-zlostavljanje/#respond: 119
+500 for https://positive.rs/category/medija-centar/it-vesti/
+ OK scraping https://positive.rs/category/medija-centar/it-vesti/: 120
+ OK scraping https://positive.rs/galerija/bits-event-2018/#respond: 121
+ OK scraping https://positive.rs/blog/zasto-i-kako-ugovori-o-odrzavanju/: 122
+ OK scraping https://positive.rs/blog/zasto-i-kako-ugovori-o-odrzavanju/#respond: 123
+ OK scraping https://positive.rs/resursi/blog/?et_blog: 124
+ OK scraping https://positive.rs/blog/zenski-it-kutak-na-cisco-expo-u-2009/: 125
+404 for https://positive.rs/2009/07/31/linksys-na-exit-09-festivalu/
+ OK scraping https://positive.rs/2009/07/31/linksys-na-exit-09-festivalu/: 126
+ OK scraping https://positive.rs/blog/zenski-it-kutak-na-cisco-expo-u-2009/#respond: 127
+ OK scraping https://positive.rs/blog/microsoft-i-positive-pozivaju-na-besplatnu-radionicu-alati-za-unapredjenje-poslovanja/: 128
+ OK scraping https://positive.rs/blog/microsoft-i-positive-pozivaju-na-besplatnu-radionicu-alati-za-unapredjenje-poslovanja/#respond: 129
+ OK scraping https://positive.rs/resursi/blog/page/4/?et_blog: 130
+ OK scraping https://positive.rs/blog/positive-3-0/: 131
+ OK scraping https://positive.rs/blog/positive-3-0/#respond: 132
+ OK scraping https://positive.rs/medija-centar/sertifikovanje-optickih-mreza/: 133
+ OK scraping https://positive.rs/medija-centar/sertifikovanje-optickih-mreza/#respond: 134
+ OK scraping https://positive.rs/resursi/blog/page/6/?et_blog: 135
+ OK scraping https://positive.rs/blog/setnja-po-oblacima-office-365/: 136
+ OK scraping https://positive.rs/blog/setnja-po-oblacima-office-365/#respond: 137
+ OK scraping https://positive.rs/blog/iso-standardi-pokretaci-promena-u-razmisljanju/: 138
+ OK scraping https://positive.rs/o-nama/sertifikati#ISO: 139
+ OK scraping https://positive.rs/blog/it-i-obrazovanje/: 140
+ OK scraping https://positive.rs/2013/01/placanje-na-rate/: 141
+404 for https://positive.rs/info/pomoc-pri-kupovini
+ OK scraping https://positive.rs/info/pomoc-pri-kupovini: 142
+ OK scraping https://positive.rs/blog/placanje-na-rate-laksi-put-do-racunara/#respond: 143
+ OK scraping https://positive.rs/blog/next-next-next-finish/: 144
+404 for https://positive.rs/racunari/servis
+ OK scraping https://positive.rs/racunari/servis: 145
+ OK scraping https://positive.rs/blog/ipak-se-okrece/: 146
+ OK scraping https://positive.rs/blog/ipak-se-okrece/#respond: 147
+ OK scraping https://positive.rs/blog/iso-standardi-pokretaci-promena-u-razmisljanju/#respond: 148
+ OK scraping https://positive.rs/blog/naucno-strucni-rad-drustveni-mediji-u-poslovne-svrhe/#respond: 149
+ OK scraping https://positive.rs/blog/it-kompanije-kuda-dalje/: 150
+ OK scraping https://positive.rs/blog/zasto-web-shop/: 151
+ OK scraping https://positive.rs/blog/zasto-web-shop/#respond: 152
+ OK scraping https://positive.rs/resursi/blog/page/8/?et_blog: 153
+ OK scraping https://positive.rs/blog/svetlo-na-kraju-tunela/: 154
+ OK scraping https://positive.rs/blog/kada-snovi-postanu-stvarnost-ili-stashas-business-trip-story-again/: 155
+ OK scraping https://positive.rs/blog/2011-pogled-u-buducnost/: 156
+ OK scraping https://positive.rs/blog/tekst-o-kompanijskom-blogu-za-dl-magazin-ii/: 157
+ OK scraping https://positive.rs/blog/tekst-o-kompanijskom-blogu-za-dl-magazin-ii/#respond: 158
+ OK scraping https://positive.rs/blog/novo-doba-mislite-bitcoin/: 159
+ OK scraping https://positive.rs/blog/kanali-savremene-komunikacije-chapter-1/: 160
+ OK scraping https://positive.rs/resursi/blog/page/7/?et_blog: 161
+ OK scraping https://positive.rs/blog/kada-prestane-da-radi-nastupaju-problemi/: 162
+ OK scraping https://positive.rs/blog/it-ili-retail-pitanje-je-sada/: 163
+ OK scraping https://positive.rs/blog/kina-zemlja-cuda/: 164
+ OK scraping https://positive.rs/blog/kada-prestane-da-radi-nastupaju-problemi/#respond: 165
+404 for https://positive.rs/o-nama/vizija-i-misija
+ OK scraping https://positive.rs/o-nama/vizija-i-misija: 166
+ OK scraping https://positive.rs/blog/it-ili-retail-pitanje-je-sada/#respond: 167
+404 for https://positive.rs/info/pomoc-pri-kupovini#Reklamacija
+ OK scraping https://positive.rs/info/pomoc-pri-kupovini#Reklamacija: 168
+ OK scraping https://positive.rs/blog/konferencija-e-trgovina-2009/#respond: 169
+ OK scraping https://positive.rs/zaposleni/darko-perovic/: 170
+500 for https://positive.rs/category/blog/tehnicka-podrska-blog/
+ OK scraping https://positive.rs/category/blog/tehnicka-podrska-blog/: 171
+ OK scraping https://positive.rs/blog/kriza-i-it-industrija-konstruktivan-pogled/#respond: 172
+ OK scraping https://positive.rs/blog/dzabe-ili-besplatno-kosta-vise/: 173
+ OK scraping https://positive.rs/resursi/blog/page/12/?et_blog: 174
+ OK scraping https://positive.rs/blog/ekoloska-taksa-obaveza-ili-potreba/: 175
+ OK scraping https://positive.rs/blog/uspesan-kraj-ili-novi-pocetak/: 176
+ OK scraping https://positive.rs/blog/e-trgovina-2010-x-medunarodna-konferencija-o-elektronskoj-trgovini-i-elektronskom-poslovanju/: 177
+ OK scraping https://positive.rs/blog/e-trgovina-2010-x-medunarodna-konferencija-o-elektronskoj-trgovini-i-elektronskom-poslovanju/#respond: 178
+ OK scraping https://positive.rs/blog/uspesan-kraj-ili-novi-pocetak/#respond: 179
+ OK scraping https://positive.rs/blog/stampaci-iskustva-i-saveti-pri-kupovini-racunarske-opreme/: 180
+ OK scraping https://positive.rs/blog/positive-case-study-u-primeni-drustvenih-medija-od-strane-cisco-systems/: 181
+ OK scraping https://positive.rs/2009/05/04/e-trgovina-2009-again/: 182
+ OK scraping https://positive.rs/blog/da-li-je-cena-najbitinja/: 183
+ OK scraping https://positive.rs/blog/da-li-je-cena-najbitinja/#respond: 184
+404 for https://positive.rs/2009/04/14/kako-smo-zivjeli-nekad/
+ OK scraping https://positive.rs/2009/04/14/kako-smo-zivjeli-nekad/: 185
+ OK scraping https://positive.rs/blog/positive-case-study-u-primeni-drustvenih-medija-od-strane-cisco-systems/#respond: 186
+ OK scraping https://positive.rs/o-nama/politika-kontinuiteta-poslovanja/: 187
+ OK scraping https://positive.rs/managed-services/office-radno-mesto/: 188
+ OK scraping https://positive.rs/blog/da-li-je-prosla-kriza-u-it-sektoru/#respond: 189
+ OK scraping https://positive.rs/utisci-korisnika/red-taxi-d-o-o-novi-sad/: 190
+500 for https://positive.rs/category/medija-centar/
+ OK scraping https://positive.rs/category/medija-centar/: 191
+ OK scraping https://positive.rs/blog/kako-proceniti-slusanost-nekog-radija-part-ii/: 192
+ OK scraping https://positive.rs/blog/positive-i-microsoft-podrska-kompanijama-koje-nastoje-da-unaprede-poslovne-procese-i-it-sektor/: 193
+ OK scraping https://positive.rs/blog/positive-i-microsoft-podrska-kompanijama-koje-nastoje-da-unaprede-poslovne-procese-i-it-sektor/#respond: 194
+ OK scraping https://positive.rs/blog/dzabe-ili-besplatno-kosta-vise/#respond: 195
+ OK scraping https://positive.rs/blog/ekonomija-blog/ekonomske-mere-sta-to-sustinski-znaci-za-privrednike/#respond: 196
+ OK scraping https://positive.rs/managed-services/rent-it: 197
+ OK scraping https://positive.rs/o-nama/utisci-korisnika: 198
+ OK scraping https://positive.rs/utisci-korisnika/lilly-021-d-o-o-novi-sad/: 199
+ OK scraping https://positive.rs/utisci-korisnika/floorexperts-d-o-o/: 200
+ OK scraping https://positive.rs/utisci-korisnika/komunalac-vrbas/: 201
+ OK scraping https://positive.rs/utisci-korisnika/balaton-stampa-d-o-o/: 202
+ OK scraping https://positive.rs/blog/inovacije-u-strategiji-i-organizaciji-preduzeca/: 203
+404 for https://positive.rs/?post_type=emd_employee&p=3344
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3344: 204
+ OK scraping https://positive.rs/blog/kako-proceniti-slusanost-nekog-radija-part-ii/#respond: 205
+ OK scraping https://positive.rs/blog/zasto-i-kako-kompanijski-blog/: 206
+ OK scraping https://positive.rs/2009/09/11/kriza-it-trzista-i-kriza-identiteta/: 207
+ OK scraping https://positive.rs/2009/06/25/krediti-da-ili-ne/: 208
+ OK scraping https://positive.rs/blog/krediti-da-ili-ne/#respond: 209
+404 for https://positive.rs/2009/06/17/dokle-vise-copypaste-shame-on-you/
+ OK scraping https://positive.rs/2009/06/17/dokle-vise-copypaste-shame-on-you/: 210
+ OK scraping https://positive.rs/blog/zasto-i-kako-kompanijski-blog/#respond: 211
+ OK scraping https://positive.rs/blog/kina-drugacija-zemlja/: 212
+ OK scraping https://positive.rs/solutions/eticki-haking/: 213
+ OK scraping https://positive.rs/blog/kraj-godine/: 214
+ OK scraping https://positive.rs/blog/kraj-godine/#respond: 215
+ OK scraping https://positive.rs/blog/office-365-dve-godine-kasnije/: 216
+500 for https://positive.rs/author/djordje/
+ OK scraping https://positive.rs/author/djordje/: 217
+ OK scraping https://positive.rs/resursi/blog/page/14/?et_blog: 218
+ OK scraping https://positive.rs/blog/linksys-na-exit09-festivalu/: 219
+ OK scraping https://positive.rs/blog/sta-je-za-mene-exit/: 220
+ OK scraping https://positive.rs/blog/javne-nabavke-tenderi-zdrava-konkurencija/: 221
+ OK scraping https://positive.rs/blog/positive-limited-edition-racunari/: 222
+500 for https://positive.rs/author/fmiladinovic/
+ OK scraping https://positive.rs/author/fmiladinovic/: 223
+ OK scraping https://positive.rs/blog/garancija-marketinski-trik-ili-realnost/: 224
+ OK scraping https://positive.rs/blog/kriza-it-trzista-i-kriza-identiteta/: 225
+500 for https://positive.rs/author/gnikolin/
+ OK scraping https://positive.rs/author/gnikolin/: 226
+ OK scraping https://positive.rs/blog/tablet-racunari-moda-ili-potreba/: 227
+ OK scraping https://positive.rs/blog/tablet-racunari-moda-ili-potreba/#respond: 228
+ OK scraping https://positive.rs/blog/kina-zemlja-cuda/#respond: 229
+ OK scraping https://positive.rs/blog/kako-proceniti-slusanost-nekog-radija/: 230
+ OK scraping https://positive.rs/blog/kako-proceniti-slusanost-nekog-radija/#respond: 231
+ OK scraping https://positive.rs/zaposleni/radoslav-malacko/: 232
+ OK scraping https://positive.rs/partnerstva/vmware-partner/: 233
+404 for https://positive.rs/?post_type=emd_employee&p=222641
+ OK scraping https://positive.rs/?post_type=emd_employee&p=222641: 234
+ OK scraping https://positive.rs/blog/okrugli-sto-nova-uloga-saopstenja-za-javnost/: 235
+ OK scraping https://positive.rs/blog/posao-iili-zadovoljstvo-positive/#respond: 236
+ OK scraping https://positive.rs/managed-services/network-managed-service/: 237
+ OK scraping https://positive.rs/blog/it-svet/: 238
+ OK scraping https://positive.rs/2010/02/02/online-nastup-kompanije-njen-prozor-u-virtuelni-svet/: 239
+ OK scraping https://positive.rs/blog/online-nastup-kompanije-njen-prozor-u-virtuelni-svet/#respond: 240
+ OK scraping https://positive.rs/blog/jesenje-pripreme-novi-prozori-umesto-starih-da-li-ste-spremni-za-windows-8/: 241
+ OK scraping https://positive.rs/?utm_source=Blog&utm_medium=article&utm_campaign=Microsoft: 242
+ OK scraping https://positive.rs/blog/jesenje-pripreme-novi-prozori-umesto-starih-da-li-ste-spremni-za-windows-8/#respond: 243
+404 for https://positive.rs/racunari?id_tip_komp=59&id_pro=MICROSOFT&utm_source=Blog&utm_medium=article&utm_campaign=Microsoft
+ OK scraping https://positive.rs/racunari?id_tip_komp=59&id_pro=MICROSOFT&utm_source=Blog&utm_medium=article&utm_campaign=Microsoft: 244
+ OK scraping https://positive.rs/konsalting-i-edukacija/biznis-proces-modeling-i-reinzenjering/: 245
+ OK scraping https://positive.rs/blog/garancija-marketinski-trik-ili-realnost/#respond: 246
+ OK scraping https://positive.rs/konsulting-i-edukacija/analiza-stanja-informacionog-sistema/: 247
+ OK scraping https://positive.rs/blog/have-a-positive-year-2020/#respond: 248
+ OK scraping https://positive.rs/medija-centar/novosti/radno-vreme-za-predstojece-praznike/: 249
+ OK scraping https://positive.rs/business-korisnici/software?utm_source=Blog&utm_medium=article&utm_campaign=Microsoft: 250
+500 for https://positive.rs/author/abogdanov/
+ OK scraping https://positive.rs/author/abogdanov/: 251
+ OK scraping https://positive.rs/utisci-korisnika/sterijino-pozorje/: 252
+ OK scraping https://positive.rs/partnerstva/apc-by-schneider-electric-select-partner-business-networks/: 253
+ OK scraping https://positive.rs/blog/inovacije-u-strategiji-i-organizaciji-preduzeca/#respond: 254
+ OK scraping https://positive.rs/blog/zasto-vojvodjanski-ict-klaster/: 255
+ OK scraping https://positive.rs/blog/zasto-vojvodjanski-ict-klaster/#respond: 256
+ OK scraping https://positive.rs/blog/poslovanje-blog/kuci-sam-i-nisam-kod-kuce-radni-dan-oca-muza-direktora/: 257
+ OK scraping https://positive.rs/blog/poslovanje-blog/kuci-sam-i-nisam-kod-kuce-radni-dan-oca-muza-direktora/#respond: 258
+ OK scraping https://positive.rs/medija-centar/it-vesti/poziv-kompanijama-da-konkurisu-za-program-podrske-u-digitalnoj-transformaciji-poslovanja/: 259
+ OK scraping https://positive.rs/medija-centar/positive-postao-distributer-specijalizovanog-programa-poweradmin/: 260
+ OK scraping https://positive.rs/medija-centar/positive-postao-distributer-specijalizovanog-programa-poweradmin/#respond: 261
+ OK scraping https://positive.rs/blog/znanje-izvozni-proizvod-domaceg-porekla/: 262
+ OK scraping https://positive.rs/blog/znanje-izvozni-proizvod-domaceg-porekla/#respond: 263
+ OK scraping https://positive.rs/blog/kupi-me-prodaj-me/#respond: 264
+ OK scraping https://positive.rs/blog/stalno-usavrsavanje/#respond: 265
+ OK scraping https://positive.rs/blog/sta-je-za-mene-exit/#respond: 266
+ OK scraping https://positive.rs/konsulting-i-edukacija/edukacija-zaposlenih/: 267
+ OK scraping https://positive.rs/blog/kina-drugacija-zemlja/#respond: 268
+ OK scraping https://positive.rs/blog/ponovo-brand-name-racunari/: 269
+ OK scraping https://positive.rs/blog/ponovo-brand-name-racunari/#respond: 270
+ OK scraping https://positive.rs/zaposleni/djordje-copic/: 271
+ OK scraping https://positive.rs/blog/inovacije-uslov-opstanka/: 272
+ OK scraping https://positive.rs/blog/inovacije-uslov-opstanka/#respond: 273
+404 for https://positive.rs/2009/06/15/sistem-kvaliteta-iso-9000-prvi-koraci/
+ OK scraping https://positive.rs/2009/06/15/sistem-kvaliteta-iso-9000-prvi-koraci/: 274
+ OK scraping https://positive.rs/managed-services/infrastructure-as-a-service/: 275
+ OK scraping https://positive.rs/solutions/rent-it/: 276
+500 for https://positive.rs/category/blog/ekonomija-blog/
+ OK scraping https://positive.rs/category/blog/ekonomija-blog/: 277
+ OK scraping https://positive.rs/managed-services/mesecni-nadzor-i-odrzavanje-racunara/: 278
+ OK scraping https://positive.rs/resursi/bits-koncept/cyber-security/: 279
+500 for https://positive.rs/author/jaca/
+ OK scraping https://positive.rs/author/jaca/: 280
+ OK scraping https://positive.rs/blog/zenski-it-kutak-by-stasha/: 281
+ OK scraping https://positive.rs/blog/zenski-it-kutak-by-stasha/#respond: 282
+ OK scraping https://positive.rs/solutions/cyber-security/: 283
+ OK scraping https://positive.rs/blog/inovativno-razmisljanje-kao-stub-strategije-preduzeca/: 284
+ OK scraping https://positive.rs/blog/inovativno-razmisljanje-kao-stub-strategije-preduzeca/#respond: 285
+ OK scraping https://positive.rs/sertifikati/iso-270012011/: 286
+404 for https://positive.rs/business-korisnici/o-racunarskim-mrezama?utm_source=Blog&utm_medium=post&utm_campaign=ICT-klaster
+ OK scraping https://positive.rs/business-korisnici/o-racunarskim-mrezama?utm_source=Blog&utm_medium=post&utm_campaign=ICT-klaster: 287
+ OK scraping https://positive.rs/anketa-saradnja-sa-tehnickom-podrskom/: 288
+404 for https://positive.rs/?post_type=emd_employee&p=3336
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3336: 289
+ OK scraping https://positive.rs/blog/e-trgovina-2009-again/#respond: 290
+ OK scraping https://positive.rs/zaposleni/djordje-medakovic/: 291
+ OK scraping https://positive.rs/blog/dokle-vise-copy-paste-shame-on-you/#respond: 292
+ OK scraping https://positive.rs/medija-centar/general-electric-vrhunska-ups-resenja-za-kucne-korisnike/: 293
+ OK scraping https://positive.rs/medija-centar/general-electric-vrhunska-ups-resenja-za-kucne-korisnike/#respond: 294
+500 for https://positive.rs/author/darko/
+ OK scraping https://positive.rs/author/darko/: 295
+ OK scraping https://positive.rs/blog/ugovor-o-odrzavanju-potreba-ili-potreba/: 296
+ OK scraping https://positive.rs/blog/ugovor-o-odrzavanju-potreba-ili-potreba/#respond: 297
+ OK scraping https://positive.rs/en/homepage/: 298
+ OK scraping https://positive.rs/en/about-us/partnerships/: 299
+ OK scraping https://positive.rs/en/remote-infrastructure-management/: 300
+ OK scraping https://positive.rs/en/partnerstva/cisco-premier-certified-partner-en-translation/: 301
+ OK scraping https://positive.rs/en/sertifikati/iso-270012011-2/: 302
+ OK scraping https://positive.rs/en/about-us/business-information/: 303
+ OK scraping https://positive.rs/en/bits-concept/: 304
+ OK scraping https://positive.rs/en/positive-fleet-management/: 305
+ OK scraping https://positive.rs/en/partnerstva/vmware-partner-2/: 306
+ OK scraping https://positive.rs/en/partnerstva/schrack-certified-partner-2/: 307
+ OK scraping https://positive.rs/blog/konkurs-za-posao-i-drustveni-mediji/: 308
+ OK scraping https://positive.rs/blog/konkurs-za-posao-i-drustveni-mediji/#respond: 309
+ OK scraping https://positive.rs/en/about-us/employees-certificates/: 310
+ OK scraping https://positive.rs/en/about-us/: 311
+ OK scraping https://positive.rs/en/about-us/clients/: 312
+ OK scraping https://positive.rs/en/bits-concept/cyber-security/: 313
+ OK scraping https://positive.rs/en/bits-concept/infrastructure-as-a-service/: 314
+ OK scraping https://positive.rs/blog/positiveday-prezentacija-postignuca-u-2010-godini/: 315
+ OK scraping https://positive.rs/blog/positiveday-prezentacija-postignuca-u-2010-godini/#respond: 316
+ OK scraping https://positive.rs/2010/09/02/sistemski-pristup-i-inovativnost-kao-oslonci-strategije-preduzeca/: 317
+ OK scraping https://positive.rs/blog/sistemski-pristup-i-inovativnost-kao-oslonci-strategije-preduzeca/#respond: 318
+404 for https://positive.rs/2010/07/26/naucni-rad-drustveni-mediji-u-poslovne-svrhe/
+ OK scraping https://positive.rs/2010/07/26/naucni-rad-drustveni-mediji-u-poslovne-svrhe/: 319
+ OK scraping https://positive.rs/en/partnerstva/hp-enterprise-business-partner-2/: 320
+ OK scraping https://positive.rs/en/partnerstva/fujitsu-server-and-integrated-system-2/: 321
+ OK scraping https://positive.rs/en/sertifikati/iso-90012015/: 322
+ OK scraping https://positive.rs/en/monitoring-and-maintenance-of-information-systems/: 323
+ OK scraping https://positive.rs/en/partnerstva/apc-by-schneider-electric-select-partner-business-networks-2/: 324
+ OK scraping https://positive.rs/en/about-us/company-certificates/: 325
+ OK scraping https://positive.rs/en/information-system-status-analysis/: 326
+ OK scraping https://positive.rs/en/sertifikati/iso-223012012-2/: 327
+ OK scraping https://positive.rs/blog/pocetak-ili-kraj-prestanak-podrske-za-windows-xp/: 328
+ OK scraping https://positive.rs/medija-centar/olaksajte-nadzor-racunarske-mreze-sa-poweradmin-resenjima/: 329
+ OK scraping https://positive.rs/resursi/smernice-za-rad-od-kuce/: 330
+500 for https://positive.rs/category/medija-centar/novosti/
+ OK scraping https://positive.rs/category/medija-centar/novosti/: 331
+ OK scraping https://positive.rs/prodajna-anketa/: 332
+ OK scraping https://positive.rs/blog/okrugli-sto-nova-uloga-saopstenja-za-javnost/#respond: 333
+ OK scraping https://positive.rs/blog/1984-1-deo/: 334
+ OK scraping https://positive.rs/blog/1984-1-deo/#respond: 335
+ OK scraping https://positive.rs/en/bits-concept/outsourcing/: 336
+ OK scraping https://positive.rs/blog/svetlo-na-kraju-tunela/#respond: 337
+ OK scraping https://positive.rs/blog/zastita-poverljivost-i-sigurnost-podataka-kao-temelj-poverenja-u-oblasti-it-usluga/: 338
+ OK scraping https://positive.rs/blog/zastita-poverljivost-i-sigurnost-podataka-kao-temelj-poverenja-u-oblasti-it-usluga/#respond: 339
+ OK scraping https://positive.rs/en/sertifikati/iso-200012011-2/: 340
+ OK scraping https://positive.rs/mala-i-srednja-preduzeca/: 341
+ OK scraping https://positive.rs/resursi/bits-koncept/: 342
+ OK scraping https://positive.rs/blog/ipak-se-okrece-2/: 343
+ OK scraping https://positive.rs/2013/02/ipak-se-okrece/: 344
+ OK scraping https://positive.rs/blog/ipak-se-okrece-2/#respond: 345
+ OK scraping https://positive.rs/blog/it-i-obrazovanje/#respond: 346
+404 for https://positive.rs/?post_type=emd_employee&p=3327
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3327: 347
+ OK scraping https://positive.rs/resursi/blog/page/2/?et_blog: 348
+ OK scraping https://positive.rs/blog/pula-to-je-raj/: 349
+ OK scraping https://positive.rs/blog/pula-to-je-raj/#respond: 350
+ OK scraping https://positive.rs/medija-centar/kako-se-zastititi-od-aktuelne-wannacry-ransomware-pretnje/: 351
+ OK scraping https://positive.rs/blog/poslednje-prijave-za-besplatni-edukativni-seminar-iskoristite-priliku-danas/: 352
+ OK scraping https://positive.rs/besplatan-seminar-za-unapredjenje-poslovanja-kroz-analizu-stanja: 353
+ OK scraping https://positive.rs/blog/poslednje-prijave-za-besplatni-edukativni-seminar-iskoristite-priliku-danas/#respond: 354
+ OK scraping https://positive.rs/bits/odrzana-druga-po-redu-konferencija-bits-digital-revolution/: 355
+ OK scraping https://positive.rs/bits/odrzana-druga-po-redu-konferencija-bits-digital-revolution/#respond: 356
+ OK scraping https://positive.rs/blog/positive-i-microsoft-podrska-kompanijama-koje-uvode-digitalizaciju/: 357
+ OK scraping https://positive.rs/blog/akcija-office-365-business-hp-racunar/: 358
+ OK scraping https://positive.rs/blog/akcija-office-365-business-hp-racunar/#respond: 359
+500 for https://positive.rs/category/bits/
+ OK scraping https://positive.rs/category/bits/: 360
+ OK scraping https://positive.rs/blog/kompaniji-positive-urucena-pocasna-plaketa-na-svecanoj-akademiji-instituta-za-ratarstvo-i-povrtarstvo/: 361
+ OK scraping https://positive.rs/blog/kompaniji-positive-urucena-pocasna-plaketa-na-svecanoj-akademiji-instituta-za-ratarstvo-i-povrtarstvo/#respond: 362
+ OK scraping https://positive.rs/zaposleni/petar-oljaca/: 363
+404 for https://positive.rs/racunari
+ OK scraping https://positive.rs/racunari: 364
+ OK scraping https://positive.rs/2010/07/19/inovativno-razmisljanje-kao-stub-strategije-preduzeca/: 365
+ OK scraping https://positive.rs/blog/povratak-u-buducnost/: 366
+ OK scraping https://positive.rs/blog/povratak-u-buducnost/#respond: 367
+500 for https://positive.rs/category/galerija/
+ OK scraping https://positive.rs/category/galerija/: 368
+ OK scraping https://positive.rs/2009/07/20/sta-je-za-mene-exit/: 369
+ OK scraping https://positive.rs/blog/management-u-uslovima-krize/: 370
+ OK scraping https://positive.rs/blog/management-u-uslovima-krize/#respond: 371
+ OK scraping https://positive.rs/blog/stampaci-iskustva-i-saveti-pri-kupovini-racunarske-opreme/#respond: 372
+ OK scraping https://positive.rs/blog/positive-online-godinu-dana-kasnije/: 373
+ OK scraping https://positive.rs/blog/positive-online-godinu-dana-kasnije/#respond: 374
+ OK scraping https://positive.rs/blog/positive-limited-edition-racunari/#respond: 375
+ OK scraping https://positive.rs/utisci-korisnika/tefter-d-o-o/: 376
+ OK scraping https://positive.rs/en/sertifikati/itil-2/: 377
+ OK scraping https://positive.rs/blog/kada-snovi-postanu-stvarnost-ili-stashas-business-trip-story-again/#respond: 378
+ OK scraping https://positive.rs/managed-services/server-managed-service/: 379
+ OK scraping https://positive.rs/managed-services/optimizacija-stampe/tehnicke-specifikacije-uredjaja/: 380
+ OK scraping https://positive.rs/konsulting-i-edukacija/edukacija-it-administratora/: 381
+ OK scraping https://positive.rs/konsulting-i-edukacija/unapredjenje-vizuelnog-identiteta/: 382
+ OK scraping https://positive.rs/blog/it-kompanije-kuda-dalje/#respond: 383
+ OK scraping https://positive.rs/blog/pocetak-ili-kraj-prestanak-podrske-za-windows-xp/#respond: 384
+ OK scraping https://positive.rs/blog/balanced-scorecard/: 385
+ OK scraping https://positive.rs/blog/balanced-scorecard/#respond: 386
+ OK scraping https://positive.rs/blog/positive-i-microsoft-podrska-kompanijama-koje-uvode-digitalizaciju/#respond: 387
+ OK scraping https://positive.rs/managed-services/: 388
+ OK scraping https://positive.rs/en/bits-concept/digital-transformation/: 389
+ OK scraping https://positive.rs/blog/djokovic-otvorio-konferenciju-bits-2019-it-s-business/: 390
+ OK scraping https://positive.rs/blog/djokovic-otvorio-konferenciju-bits-2019-it-s-business/#respond: 391
+ OK scraping https://positive.rs/blog/ekoloska-taksa-obaveza-ili-potreba/#respond: 392
+ OK scraping https://positive.rs/blog/positive-web-shop-godinu-dana-kasnije-prvi-podaci-i-analiza/: 393
+ OK scraping https://positive.rs/blog/positive-web-shop-godinu-dana-kasnije-prvi-podaci-i-analiza/#respond: 394
+500 for https://positive.rs/category/blog/prodaja-blog/
+ OK scraping https://positive.rs/category/blog/prodaja-blog/: 395
+ OK scraping https://positive.rs/en/about-us/contact/: 396
+404 for https://positive.rs/?post_type=emd_employee&p=3320
+ OK scraping https://positive.rs/?post_type=emd_employee&p=3320: 397
+ OK scraping https://positive.rs/en/partnerstva/veeam-service-provider-2/: 398
+ OK scraping https://positive.rs/medija-centar/kako-se-zastititi-od-aktuelne-wannacry-ransomware-pretnje/#respond: 399
+ OK scraping https://positive.rs/blog/2013/02/setnja-po-oblacima/: 400
+ OK scraping https://positive.rs/resursi/preuzimanja/: 401
+ OK scraping https://positive.rs/pc-radno-mesto-katalog/: 402
+ OK scraping https://positive.rs/resursi/galerija/: 403
+ OK scraping https://positive.rs/galerija/sterijino-pozorje/: 404
+ OK scraping https://positive.rs/galerija/sterijino-pozorje/#respond: 405
+ OK scraping https://positive.rs/blog/budite-u-toku-windows-7/: 406
+ OK scraping https://positive.rs/blog/budite-u-toku-windows-7/#respond: 407
+ OK scraping https://positive.rs/blog/tablet-nije-tablet-bez-opreme-u-fulu/: 408
+404 for https://positive.rs/racunari/tablet/asus-nexus7-1b075a
+ OK scraping https://positive.rs/racunari/tablet/asus-nexus7-1b075a: 409
+404 for https://positive.rs/racunari/tablet/samsung-gt-p3110zwasmo
+ OK scraping https://positive.rs/racunari/tablet/samsung-gt-p3110zwasmo: 410
+404 for https://positive.rs/racunari/tablet/samsung-gt-n8010eaasmo
+ OK scraping https://positive.rs/racunari/tablet/samsung-gt-n8010eaasmo: 411
+404 for https://positive.rs/racunari/oprema-za-tablete/omega-kbt7
+ OK scraping https://positive.rs/racunari/oprema-za-tablete/omega-kbt7: 412
+ OK scraping https://positive.rs/blog/tablet-nije-tablet-bez-opreme-u-fulu/#respond: 413
+ OK scraping https://positive.rs/zaposleni/borislav-stojsin/: 414
+ OK scraping https://positive.rs/solutions/projektovanje-racunarskih-mreza-i-informacionih-sistema/: 415
+ OK scraping https://positive.rs/racunari/tablet: 416
+ OK scraping https://positive.rs/cenovnik-usluga-tehnicke-podrske/: 417
+ OK scraping https://positive.rs/utisci-korisnika/institut-za-ratarstvo-i-povrtarstvo/: 418
+ OK scraping https://positive.rs/blog/sjeti-se-kako-smo-zivjeli-nekad/#respond: 419
+ OK scraping https://positive.rs/resursi/blog/: 420
+ OK scraping https://positive.rs/blog/kriza-it-trzista-i-kriza-identiteta/#respond: 421
+ OK scraping https://positive.rs/blog/ustedite-i-optimizujte-koriscenje-voznog-parka/: 422
+404 for https://positive.rs/business-korisnici/gps-pracenje-vozila
+ OK scraping https://positive.rs/business-korisnici/gps-pracenje-vozila: 423
+404 for https://positive.rs/business-korisnici/gps-pracenje-vozila?utm_source=Blog&utm_medium=post&utm_campaign=GPS
+ OK scraping https://positive.rs/business-korisnici/gps-pracenje-vozila?utm_source=Blog&utm_medium=post&utm_campaign=GPS: 424
+404 for https://positive.rs/business-korisnici/gps-pracenje-vozila#Mogucnosti
+ OK scraping https://positive.rs/business-korisnici/gps-pracenje-vozila#Mogucnosti: 425
+404 for https://positive.rs/medija-centar/novosti/gps-pracenje-vozila
+ OK scraping https://positive.rs/medija-centar/novosti/gps-pracenje-vozila: 426
+ OK scraping https://positive.rs/blog/ustedite-i-optimizujte-koriscenje-voznog-parka/#respond: 427
+ OK scraping https://positive.rs/galerija/novogodisnji-team-building/: 428
+ OK scraping https://positive.rs/galerija/positive-bits-2017/: 429
+ OK scraping https://positive.rs/galerija/positive-bits-2017/#respond: 430
+ OK scraping https://positive.rs/medija-centar/srecni-uskrsnji-praznici/: 431
+ OK scraping https://positive.rs/medija-centar/srecni-uskrsnji-praznici/#respond: 432
+ OK scraping https://positive.rs/o-nama/politika-privatnosti/: 433
+ OK scraping https://positive.rs/partnerstva/hp-inc-business-partner/: 434
+ OK scraping https://positive.rs/blog/team-building-moda-ili-potreba/: 435
+ OK scraping https://positive.rs/blog/team-building-moda-ili-potreba/#respond: 436
+ OK scraping https://positive.rs/blog/linksys-na-exit09-festivalu/#respond: 437
+404 for https://positive.rs/?post_type=emd_employee&p=222689
+ OK scraping https://positive.rs/?post_type=emd_employee&p=222689: 438
+ OK scraping https://positive.rs/partnerstva/veeam-service-provider/: 439
+ OK scraping https://positive.rs/blog/next-next-next-finish/#respond: 440
+500 for https://positive.rs/author/bostojic/
+ OK scraping https://positive.rs/author/bostojic/: 441
+ OK scraping https://positive.rs/galerija/exit-2018/: 442
+ OK scraping https://positive.rs/galerija/exit-2018/#respond: 443
+ OK scraping https://positive.rs/blog/edukativni-seminar-za-unapredjenje-poslovanja/: 444
+ OK scraping https://positive.rs/blog/edukativni-seminar-za-unapredjenje-poslovanja/#respond: 445
+ OK scraping https://positive.rs/zaposleni/marijana-djakovic/: 446
+404 for https://positive.rs/racunari/software-retail-za-postojece-racunare
+ OK scraping https://positive.rs/racunari/software-retail-za-postojece-racunare: 447
+ OK scraping https://positive.rs/managed-services/mail-hosting-service/: 448
+ OK scraping https://positive.rs/galerija/novogodisnji-team-building/#respond: 449
+ OK scraping https://positive.rs/blog/cemu-sluze-procedure/: 450
+ OK scraping https://positive.rs/blog/cemu-sluze-procedure/#respond: 451
+404 for https://positive.rs/2009/11/04/budite-u-toku-win7/
+ OK scraping https://positive.rs/2009/11/04/budite-u-toku-win7/: 452
+ OK scraping https://positive.rs/konsalting-i-edukacija/kontinualno-upravljanje-kvalitetom/: 453
+ OK scraping https://positive.rs/blog/promocija-vojvodanskog-ict-klastera-izvozna-sansa-srbije/#respond: 454
+ OK scraping https://positive.rs/blog/upravljanje-rizicima-strahovi-it-industije/: 455
+ OK scraping https://positive.rs/blog/upravljanje-rizicima-strahovi-it-industije/#respond: 456
+ OK scraping https://positive.rs/zaposleni/dejana-radanovic/: 457
+ OK scraping https://positive.rs/zaposleni/zlatko-markser/: 458
+ OK scraping https://positive.rs/konsulting-i-edukacija/kontinualno-upravljanje-kvalitetom/: 459
+ OK scraping https://positive.rs/blog/poslovanje-blog/vasem-automobilu-ne-trebaju-airbag-ovi/: 460
+ OK scraping https://positive.rs/blog/poslovanje-blog/vasem-automobilu-ne-trebaju-airbag-ovi/#respond: 461
+ OK scraping https://positive.rs/en/partnerstva/sophos-gold-partner-2/: 462
+ OK scraping https://positive.rs/blog/projektovanje-i-standardi/: 463
+ OK scraping https://positive.rs/blog/projektovanje-i-standardi/#respond: 464
+404 for https://positive.rs/racunari/oprema-za-tablete
+ OK scraping https://positive.rs/racunari/oprema-za-tablete: 465
+ OK scraping https://positive.rs/blog/novo-doba-mislite-bitcoin/#respond: 466
+ OK scraping https://positive.rs/resursi/blog/page/16/?et_blog: 467
+ OK scraping https://positive.rs/blog/kodeksi-norme-predrasude-pravila/: 468
+ OK scraping https://positive.rs/blog/kodeksi-norme-predrasude-pravila/#respond: 469
+ OK scraping https://positive.rs/blog/obuka-za-nezaposlene-iz-elektronskog-poslovanja/: 470
+ OK scraping https://positive.rs/blog/2011-pogled-u-buducnost/#respond: 471
+ OK scraping https://positive.rs/blog/obuka-za-nezaposlene-iz-elektronskog-poslovanja/#respond: 472
+ OK scraping https://positive.rs/blog/it-industrija-i-kriza-ii/: 473
+ OK scraping https://positive.rs/blog/it-industrija-i-kriza-ii/#respond: 474
+ OK scraping https://positive.rs/blog/vrednost-kompanijskog-bloga/: 475
+ OK scraping https://positive.rs/blog/vrednost-kompanijskog-bloga/#respond: 476
+ OK scraping https://positive.rs/konsulting-i-edukacija/: 477
+ OK scraping https://positive.rs/medija-centar/olaksajte-nadzor-racunarske-mreze-sa-poweradmin-resenjima/#respond: 478
+ OK scraping https://positive.rs/baza-znanja/: 479
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/uputstvo-za-korisnike-rad-sa-aplikacijom-tiket-positive-rs/: 480
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/postupak-instalacije-teamviewer-qs/: 481
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/uputstvo-za-upotrebu-positive-upravljanje-voznim-parkom/: 482
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/: 483
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/kako-prevazici-problem-sa-update-om-windows-8-1-operativnih-sistema/: 484
+ OK scraping https://positive.rs/baza-znanja/uputstva-za-positive-klijente/uputstvo-za-podesavanje-elektronskog-potpisa/: 485
+ OK scraping https://positive.rs/partnerstva/hp-enterprise-business-partner/: 486
+ OK scraping https://positive.rs/blog/positive-blog-za-dl-magazin-i/: 487
+ OK scraping https://positive.rs/blog/positive-blog-za-dl-magazin-i/#respond: 488
+404 for https://positive.rs/?post_type=emd_employee&p=221890
+ OK scraping https://positive.rs/?post_type=emd_employee&p=221890: 489
+ OK scraping https://positive.rs/managed-services/positive-upravljanje-voznim-parkom/: 490
+ OK scraping https://positive.rs/blog/sistemski-pristup-i-inovativnost-kao-oslonci-strategije-preduzeca/: 491
+ OK scraping https://positive.rs/blog/r-e-s-p-e-c-t/: 492
+ OK scraping https://positive.rs/blog/r-e-s-p-e-c-t/#respond: 493
+ OK scraping https://positive.rs/blog/informacione-tehnologije-sansa-za-izvoz/: 494
+ OK scraping https://positive.rs/blog/informacione-tehnologije-sansa-za-izvoz/#respond: 495
+404 for https://positive.rs/solutions/sotfware-asset-management/
+ OK scraping https://positive.rs/solutions/sotfware-asset-management/: 496
+ OK scraping https://positive.rs/blog/it-industrija-i-kriza/: 497
+ OK scraping https://positive.rs/blog/ultrabook-ili-ultra-muk/: 498
+ OK scraping https://positive.rs/blog/ultrabook-ili-ultra-muk/#respond: 499
+ OK scraping https://positive.rs/sertifikati/iso-90012008/: 500
+ OK scraping https://positive.rs/blog/positive-doo-exit-festival-again/#respond: 501
+ OK scraping https://positive.rs/en/partnerstva/hp-ink-business-partner/: 502
+ OK scraping https://positive.rs/solutions/integracija-racunarske-opreme/: 503
+500 for https://positive.rs/author/goran-culibrk/
+ OK scraping https://positive.rs/author/goran-culibrk/: 504
+ OK scraping https://positive.rs/utisci-korisnika/jkp-trznica/: 505
+ OK scraping https://positive.rs/zaposleni/nenad-nikolic/: 506
+500 for https://positive.rs/category/blog/journal/
+ OK scraping https://positive.rs/category/blog/journal/: 507
+500 for https://positive.rs/author/stanislava/
+ OK scraping https://positive.rs/author/stanislava/: 508
+ OK scraping https://positive.rs/konsulting-i-edukacija/obuke-u-oblasti-kvaliteta-i-informacionih-tehnologija/: 509
+ OK scraping https://positive.rs/blog/javne-nabavke-tenderi-zdrava-konkurencija/#respond: 510
+ OK scraping https://positive.rs/galerija/bits-2019/: 511
+ OK scraping https://positive.rs/galerija/bits-2019/#respond: 512
+ OK scraping https://positive.rs/resursi/blog/page/9/?et_blog: 513
+ OK scraping https://positive.rs/blog/positive-iz-drugog-ugla-putopisna-prica-ii-deo/: 514
+ OK scraping https://positive.rs/blog/it-sektor-dva-lica/: 515
+ OK scraping https://positive.rs/2011/04/28/raskrsnica-kada-se-ukrste-ili-spajaju-putevi-pred-nama/: 516
+ OK scraping https://positive.rs/blog/positive-iz-drugog-ugla-putopisna-prica-ii-deo/#respond: 517
+ OK scraping https://positive.rs/blog/primena-erp-resenja-u-srbiji-neki-odgovori/: 518
+ OK scraping https://positive.rs/blog/primena-erp-resenja-u-srbiji-neki-odgovori/#respond: 519
+ OK scraping https://positive.rs/blog/pomoc-pri-legalizaciji-softvera-iskustva-iz-prakse/: 520
+ OK scraping https://positive.rs/blog/blog-intervju-milan-solaja-direktor-vojvodanskog-ikt-klastera/: 521
+ OK scraping https://positive.rs/blog/positive-iz-drugog-ugla-putopisna-prica-high-end/: 522
+ OK scraping https://positive.rs/blog/positive-iz-drugog-ugla-putopisna-prica-high-end/#respond: 523
+ OK scraping https://positive.rs/blog/unapredenje-korporativne-kulture/: 524
+ OK scraping https://positive.rs/blog/unapredenje-korporativne-kulture/#respond: 525
+ OK scraping https://positive.rs/2010/10/17/promocija-vojvodanskog-ict-klastera-izvozna-sansa-srbije/: 526
+ OK scraping https://positive.rs/blog/ima-li-kraja-krizi/: 527
+ OK scraping https://positive.rs/blog/it-sektor-dva-lica/#respond: 528
+404 for https://positive.rs/newsletter/
+ OK scraping https://positive.rs/newsletter/: 529
+ OK scraping https://positive.rs/blog/pomoc-pri-legalizaciji-softvera-iskustva-iz-prakse/#respond: 530
+ OK scraping https://positive.rs/2010/12/27/primena-erp-resenja-u-srbiji/: 531
+ OK scraping https://positive.rs/blog/raskrsnica-kada-se-ukrste-ili-spajaju-putevi-pred-nama/: 532
+ OK scraping https://positive.rs/blog/e-trgovina-iso-9001-razvoj-informatike/: 533
+ OK scraping https://positive.rs/blog/e-trgovina-iso-9001-razvoj-informatike/#respond: 534
+404 for https://positive.rs/2011/06/15/positive-putopisna-prica-high-end/
+ OK scraping https://positive.rs/2011/06/15/positive-putopisna-prica-high-end/: 535
+ OK scraping https://positive.rs/blog/e-trgovina-2011-najava-i-iskustva-sa-prethodnih-konferencija/: 536
+ OK scraping https://positive.rs/blog/e-trgovina-2011-najava-i-iskustva-sa-prethodnih-konferencija/#respond: 537
+ OK scraping https://positive.rs/blog/ima-li-kraja-krizi/#respond: 538
+ OK scraping https://positive.rs/blog/kako-odabrati-racunar-po-meri/: 539
+ OK scraping https://positive.rs/blog/kako-odabrati-racunar-po-meri/#respond: 540
+500 for https://positive.rs/tag/e-trgovina/?utm_source=blog&utm_medium=post&utm_term=etrgovina&utm_content=Jaca&utm_campaign=simptomaticno
+ OK scraping https://positive.rs/tag/e-trgovina/?utm_source=blog&utm_medium=post&utm_term=etrgovina&utm_content=Jaca&utm_campaign=simptomaticno: 541
+ OK scraping https://positive.rs/blog/kanali-savremene-komunikacije-chapter-1/#respond: 542
+404 for https://positive.rs/2009/07/07/kako-je-nastao-web-shop/
+ OK scraping https://positive.rs/2009/07/07/kako-je-nastao-web-shop/: 543
+ OK scraping https://positive.rs/blog/suncana-ili-kisna-jesen/: 544
+ OK scraping https://positive.rs/blog/suncana-ili-kisna-jesen/#respond: 545
+ OK scraping https://positive.rs/2009/07/21/javne-nabavke-tenderi/?utm_source=Blog&utm_medium=Sta%C5%A1a%2Bpost&utm_term=Javne%2Bnabavke%2Bi%2Btenderi&utm_content=Sun%C4%8Dana%2Bili%2Bki%C5%A1na%2Bjesen%3F&utm_campaign=o%2B%C4%8Demu%2Bsam%2Bve%C4%87%2Bpisala%2Bpre%2Bne%C5%A1to%2Bvi%C5%A1e%2Bod%2Bgodinu%2Bdana: 546
+ OK scraping https://positive.rs/blog/javne-nabavke-tenderi-zdrava-konkurencija/?utm_source=Blog&utm_medium=Sta%C5%A1a%2Bpost&utm_term=Javne%2Bnabavke%2Bi%2Btenderi&utm_content=Sun%C4%8Dana%2Bili%2Bki%C5%A1na%2Bjesen%3F&utm_campaign=o%2B%C4%8Demu%2Bsam%2Bve%C4%87%2Bpisala%2Bpre%2Bne%C5%A1to%2Bvi%C5%A1e%2Bod%2Bgodinu%2Bdana#respond: 547
+ OK scraping https://positive.rs/blog/sistem-kvaliteta-iso-9001-prvi-koraci/: 548
+ OK scraping https://positive.rs/blog/sistem-kvaliteta-iso-9001-prvi-koraci/#respond: 549
+ OK scraping https://positive.rs/en/partnerstva/microsoft-silver-partner-2/: 550
+ OK scraping https://positive.rs/blog/it-svet/#respond: 551
+ OK scraping https://positive.rs/blog/kina-nastavak-putovanja/: 552
+ OK scraping https://positive.rs/blog/kina-nastavak-putovanja/#respond: 553
+ OK scraping https://positive.rs/o-nama/utisci-korisnika/: 554
+ OK scraping https://positive.rs/blog/have-a-positive-year/: 555
+ OK scraping https://positive.rs/blog/have-a-positive-year/#respond: 556
+ OK scraping https://positive.rs/blog/blogopen-social-open/: 557
+ OK scraping https://positive.rs/blog/blogopen-social-open/#respond: 558
+ OK scraping https://positive.rs/medija-centar/novosti/radno-vreme-za-predstojece-praznike/#respond: 559
+ OK scraping https://positive.rs/2013/02/ipak-se-okrece-2/: 560
+ OK scraping https://positive.rs/blog/u-susret-prolecu-positive-preventiva-i-terapija/: 561
+404 for https://positive.rs/racunari/antivirus-software
+ OK scraping https://positive.rs/racunari/antivirus-software: 562
+ OK scraping https://positive.rs/blog/u-susret-prolecu-positive-preventiva-i-terapija/#respond: 563
+ OK scraping https://positive.rs/blog/gamers-house-gejming-nacin-zivota/: 564
+ OK scraping https://positive.rs/blog/gamers-house-gejming-nacin-zivota/#respond: 565
+ OK scraping https://positive.rs/blog/jeftin-racunar-skupa-skola/: 566
+ OK scraping https://positive.rs/blog/jeftin-racunar-skupa-skola/#respond: 567
+ OK scraping https://positive.rs/partnerstva/fujitsu-server-and-integrated-system/: 568
+ OK scraping https://positive.rs/medija-centar/neradno-vreme-za-prvomajske-praznike/: 569
+ OK scraping https://positive.rs/medija-centar/neradno-vreme-za-prvomajske-praznike/#respond: 570
+ OK scraping https://positive.rs/blog/kako-menadzeri-u-it-kompaniji-dozivljavaju-svet-oko-sebe/: 571
+ OK scraping https://positive.rs/blog/kako-menadzeri-u-it-kompaniji-dozivljavaju-svet-oko-sebe/#respond: 572
+ OK scraping https://positive.rs/blog/kako-ste-blogeri-blogometar15/: 573
+ OK scraping https://positive.rs/blog/kako-ste-blogeri-blogometar15/#respond: 574
+ OK scraping https://positive.rs/blog/razlike-izmedu-php-ili-asp-net/: 575
+ OK scraping https://positive.rs/blog/razlike-izmedu-php-ili-asp-net/#respond: 576
+ OK scraping https://positive.rs/medija-centar/it-vesti/poziv-kompanijama-da-konkurisu-za-program-podrske-u-digitalnoj-transformaciji-poslovanja/#respond: 577
+ OK scraping https://positive.rs/blog/krediti-da-ili-ne/: 578
+ OK scraping https://positive.rs/2010/01/25/prvih-10-godina/: 579
+ OK scraping https://positive.rs/2009/11/11/online-reputacija/: 580
+ OK scraping https://positive.rs/blog/prvih-10-godina/#respond: 581
+ OK scraping https://positive.rs/blog/zasto-nemamo-facebook-fan-page-ili-grupu/: 582
+ OK scraping https://positive.rs/blog/zasto-nemamo-facebook-fan-page-ili-grupu/#respond: 583
+ OK scraping https://positive.rs/resursi/blog/page/3/?et_blog: 584
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika/: 585
+ OK scraping https://positive.rs/medija-centar/sirimo-nas-prodajni-tim/: 586
+ OK scraping https://positive.rs/blog/erp-resenja-sta-zasto-i-kako/: 587
+ OK scraping https://positive.rs/blog/msp-i-erp-resenja/: 588
+ OK scraping https://positive.rs/blog/msp-i-erp-resenja/#respond: 589
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika-2/: 590
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika-2/#respond: 591
+ OK scraping https://positive.rs/medija-centar/i-ove-godine-smo-sponzor-sterijinog-pozorja/: 592
+ OK scraping https://positive.rs/medija-centar/i-ove-godine-smo-sponzor-sterijinog-pozorja/#respond: 593
+404 for https://positive.rs/maskarada/
+ OK scraping https://positive.rs/maskarada/: 594
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika-3/: 595
+ OK scraping https://positive.rs/medija-centar/odrzan-positive-bits-2017-skup-za-partnere-novosadske-it-kompanije-positive/: 596
+ OK scraping https://positive.rs/medija-centar/odrzan-positive-bits-2017-skup-za-partnere-novosadske-it-kompanije-positive/#respond: 597
+404 for https://positive.rs/erp-resenja-sta-zasto-i-kako/
+ OK scraping https://positive.rs/erp-resenja-sta-zasto-i-kako/: 598
+ OK scraping https://positive.rs/medija-centar/positive-ponosni-sponzor-blogopen-10-konferencije/: 599
+ OK scraping https://positive.rs/medija-centar/positive-ponosni-sponzor-blogopen-10-konferencije/#respond: 600
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika-3/#respond: 601
+404 for https://positive.rs/instalacija-mreze-na-terenu-exit-experience-1/
+ OK scraping https://positive.rs/instalacija-mreze-na-terenu-exit-experience-1/: 602
+ OK scraping https://positive.rs/medija-centar/neradni-dani-15-i-16-februar/: 603
+ OK scraping https://positive.rs/medija-centar/sirimo-nas-prodajni-tim/#respond: 604
+ OK scraping https://positive.rs/medija-centar/novosadska-kompanija-positive-d-o-o-urucila-donaciju-domu-veternik-ustanovi-za-decu-i-omladinu-ometenu-u-razvoju-u-veterniku/: 605
+ OK scraping https://positive.rs/medija-centar/novosadska-kompanija-positive-d-o-o-urucila-donaciju-domu-veternik-ustanovi-za-decu-i-omladinu-ometenu-u-razvoju-u-veterniku/#respond: 606
+ OK scraping https://positive.rs/medija-centar/neradni-dani-povodom-praznika/#respond: 607
+ OK scraping https://positive.rs/medija-centar/neradni-dani-15-i-16-februar/#respond: 608
+ OK scraping https://positive.rs/blog/erp-resenja-sta-zasto-i-kako/#respond: 609
+ OK scraping https://positive.rs/blog/garancija-bez-granica-ili-djuro-rodicu-ti-petoro-dece/: 610
+ OK scraping https://positive.rs/blog/garancija-bez-granica-ili-djuro-rodicu-ti-petoro-dece/#respond: 611
+ OK scraping https://positive.rs/blog/online-nastup-kompanije-njen-prozor-u-virtuelni-svet/: 612
+ OK scraping https://positive.rs/managed-services/endpoint-security-service/: 613
+ OK scraping https://positive.rs/blog/raskrsnica-kada-se-ukrste-ili-spajaju-putevi-pred-nama/#respond: 614
+ OK scraping https://positive.rs/2010/03/02/positive-case-study-u-primeni-drustvenih-medija-od-strane-cisco-systems/: 615
+ OK scraping https://positive.rs/zaposleni/vukasin-vojvodic/: 616
+ OK scraping https://positive.rs/medija-centar/odrzan-skup-za-partnere-novosadske-it-kompanije-positive/: 617
+ OK scraping https://positive.rs/medija-centar/odrzan-skup-za-partnere-novosadske-it-kompanije-positive/#respond: 618
+ OK scraping https://positive.rs/blog/office-365-dve-godine-kasnije/#respond: 619
+ OK scraping https://positive.rs/managed-services/backup-podataka/: 620
+ OK scraping https://positive.rs/blog/blog-intervju-milan-solaja-direktor-vojvodanskog-ikt-klastera/#respond: 621
+ OK scraping https://positive.rs/solutions/software-asset-management/: 622
+ OK scraping https://positive.rs/blog/neodoljiva-ponuda/: 623
+ OK scraping https://positive.rs/2011/03/17/ima-li-kraja-krizi/: 624
+ OK scraping https://positive.rs/blog/neodoljiva-ponuda/#respond: 625
+ OK scraping https://positive.rs/blog/positive-day-2011-za-poslovanje-bez-briga/: 626
+ OK scraping https://positive.rs/blog/positive-day-2011-za-poslovanje-bez-briga/#respond: 627
+ OK scraping https://positive.rs/zaposleni/dragana-reljic/: 628
+ OK scraping https://positive.rs/resursi/blog/page/5/?et_blog: 629
+ OK scraping https://positive.rs/blog/evropski-san-razlog-da-se-bude-bolji/: 630
+ OK scraping https://positive.rs/blog/instalacija-mreze-na-terenu-exit-experience-1/: 631
+ OK scraping https://positive.rs/blog/office365-godina-prodje/: 632
+ OK scraping https://positive.rs/blog/office365-godina-prodje/#respond: 633
+ OK scraping https://positive.rs/blog/kako-poslovati-bez-briga/: 634
+ OK scraping https://positive.rs/blog/kako-poslovati-bez-briga/#respond: 635
+ OK scraping https://positive.rs/blog/evropski-san-razlog-da-se-bude-bolji/#respond: 636
+ OK scraping https://positive.rs/blog/inovacije-kljuc-opstanka/: 637
+ OK scraping https://positive.rs/blog/2013/08/instalacije-mreze-na-terenu-exit-experience-2/: 638
+ OK scraping https://positive.rs/blog/instalacije-mreze-na-terenu-exit-experience-2/#respond: 639
+ OK scraping https://positive.rs/blog/instalacija-mreze-na-terenu-exit-experience-1/#respond: 640
+ OK scraping https://positive.rs/medija-centar/neradni-dan-povodom-dana-drzavnosti/: 641
+ OK scraping https://positive.rs/medija-centar/maskarada-karnevalska-povorka/: 642
+ OK scraping https://positive.rs/medija-centar/maskarada-karnevalska-povorka/#respond: 643
+ OK scraping https://positive.rs/blog/da-li-ste-dovoljno-zasticeni/: 644
+404 for https://positive.rs/racunari?id_tip_komp=97&id_pro=Kaspersky
+ OK scraping https://positive.rs/racunari?id_tip_komp=97&id_pro=Kaspersky: 645
+ OK scraping https://positive.rs/blog/da-li-ste-dovoljno-zasticeni/#respond: 646
+ OK scraping https://positive.rs/blog/restart-promena-nacina-razmisljanja/: 647
+ OK scraping https://positive.rs/blog/restart-promena-nacina-razmisljanja/#respond: 648
+ OK scraping https://positive.rs/blog/inovacije-kljuc-opstanka/#respond: 649
+ OK scraping https://positive.rs/blog/instalacije-mreze-na-terenu-exit-experience-2/: 650
+ OK scraping https://positive.rs/medija-centar/radno-vreme-u-praznicnoj-sezoni/: 651
+ OK scraping https://positive.rs/medija-centar/radno-vreme-u-praznicnoj-sezoni/#respond: 652
+ OK scraping https://positive.rs/medija-centar/neradni-dan-povodom-dana-drzavnosti/#respond: 653
+404 for https://positive.rs/business-korisnici/o-racunarskim-mrezama
+ OK scraping https://positive.rs/business-korisnici/o-racunarskim-mrezama: 654
+ OK scraping https://positive.rs/blog/kucni-serveri-i-nasa-iskustva/: 655
+ OK scraping https://positive.rs/blog/kucni-serveri-i-nasa-iskustva/#respond: 656
+ OK scraping https://positive.rs/2009/06/29/garancija-marketinski-trik-ili-realnost/: 657
+ OK scraping https://positive.rs/medija-centar/novi-tiketing-sistem/: 658
+404 for https://positive.rs/usluge/ugovori-o-odrzavanju/
+ OK scraping https://positive.rs/usluge/ugovori-o-odrzavanju/: 659
+ OK scraping https://positive.rs/medija-centar/novi-tiketing-sistem/#respond: 660
+404 for https://positive.rs/cloud-usluge/daljinski-nadzor-racunara-i-mreza/
+ OK scraping https://positive.rs/cloud-usluge/daljinski-nadzor-racunara-i-mreza/: 661
+ OK scraping https://positive.rs/blog/promene/: 662
+ OK scraping https://positive.rs/blog/promene/#respond: 663
+ OK scraping https://positive.rs/2010/05/25/inovacije-u-strategiji-i-organizaciji-preduzeca/: 664
+ OK scraping https://positive.rs/blog/placanje-na-rate-laksi-put-do-racunara/: 665
+ OK scraping https://positive.rs/blog/iso-9001-korak-u-dobrom-pravcu/: 666
+ OK scraping https://positive.rs/blog/iso-9001-korak-u-dobrom-pravcu/#respond: 667
+ OK scraping https://positive.rs/blog/kako-je-nastao-positive-web-shop/: 668
+ OK scraping https://positive.rs/blog/kako-je-nastao-positive-web-shop/#respond: 669
+ OK scraping https://positive.rs/blog/it-industrija-i-kriza/#respond: 670
+ OK scraping https://positive.rs/blog/1984-2-deo/: 671
+ OK scraping https://positive.rs/blog/1984-2-deo/#respond: 672
+ OK scraping https://positive.rs/blog/prvih-10-godina/: 673
+ OK scraping https://positive.rs/blog/letnji-saveti-za-licenciranje-softvera/: 674
+ OK scraping https://positive.rs/racunari/windows: 675
+ OK scraping https://positive.rs/blog/letnji-saveti-za-licenciranje-softvera/#respond: 676
+ OK scraping https://positive.rs/business-korisnici/software#Licenciranje-Microsoft-paketa: 677
+ OK scraping https://positive.rs/partnerstva/sophos-gold-partner/: 678
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 100 embeddings
+Upserting 8 embeddings
+

@@ -1,0 +1,203 @@
+KORIŠĆENI DOKUMENTI:
+>> Prva trećina transkripta sastanka održanog 20.07.2023. (9254 karaktera) - za parove promptova 1 - 7 (7.1 - 7.6).
+
+>> Transkript sastanka održanog 20.07.2023. (30041 karaktera) - za parove promptova 8 - 15.
+
+
+KORIŠĆENI GPT MODELI:
+>> 3.5 turbo 16k.
+
+
+KORIŠĆENE TEMPERATURE:
+>> 0.0, 0.5, 1.0 - za parove promptova 1 - 7 (7.1 - 7.6).
+
+>> 0.0, 0.3, 0.6 - za parove promptova 8 - 15.
+
+
+NAMPOMENE:
+>> Dosta promptova sam napiao po uzoru na primere koje mi je ChatGPT predložio. Ipak, oni koje sam najmanje izmenio u odnosu na to što je ChatGPT izbacio su dali i najlošije rezultate.
+
+>> Svaki par promptova je subjektivno uopšteno ocenjen (loš, ok, dobar); navedena je i temperatura koja je dala najbolje rezultate.
+
+>> Priložena je i Python skripta ("Pomoc pri testiranju.py") koja sadrži tri distinktne funkcije; služe za dalju obradu podataka sa kojima raspolažemo - svaka sadrži kratko pojašnjenje unutar koda, a i većina identifikatora je nazvana tako da bude jasno čemu služe (meni bar).
+
+>> Neke komande su izostavljene - npr. "Translate any English words into Serbian." - razlog je ograničenje koje se spominje u narednoj sekciji.
+
+>> Nažalost novi promptovi ne mogu da se učitaju u aplikaciju. Ja uvek koristim polja za direktan unos teksta. Na priloženom screenshot-u "upload prompt error" se vidi greška kada se proba sa bilo kojim txt-om koji Djordje nije definisao u sklopu repozitorijuma.
+
+
+ZAKLJUČCI:
+>> Temperaturni opseg koji bi trebalo uzeti za dalje razmatranje je 0.0 - 0.7; sve preko toga po pravilu daje loše rezultate. Za sada mi se čini da će u opštem slučaju najbolje rezultate davati opseg 0.0 - 0.4.
+
+>> Na razne načine je pokušano objasniti programu da formatira izlazni tekst kroz FINALNI prompt (dosta više nego što je prikazano među ovde zapisanim promptovima) - ne uspeva. U tom slučaju jedino što razume iole pouzdano je kada mu se traži da zapisuje u vidu teza. S druge strane, kada se formatiranje proba preko POČETNOG prompta dobijaju se daleko bolji rezultati.
+
+>> Program jako loše reaguje na pokušaje definisanja strukture izlaznog teksta kroz unapred zadate šablone. Izgleda da to treba raditi kroz tekstualno opisivanje.
+
+>> 16k tokena se ispostavilo poprilično ograničeno - pošto je kod pisanja promptova dužina teksta u pozitivnoj korelaciji sa brojem naredbi, za sada treba gledati da promptovi ne budu predugački.
+
+>> Treba biti veoma jasan i po potrebi detaljan kada su u pitanju ključne naredbe. Npr. ako bi rečenicu "Write the output text only in the Serbian language." zamenili sa "Write only in the Serbian language." dešavalo bi se da dobijemo sažetak na engleskom.
+
+>> Pojedinačne reči mogu biti ekstremno bitne. Npr. ako zamenimo "important information" sa "essential information" dobićemo ogromnu razliku u sažetku.
+
+>> Parovi [7.3, 7.6, 11, 12, 14, 15] su dobili ocenu "dobar". Eliminacijom sličnih ostaju [7.6, 11, 12, 15]. Rekao bih da struktura 15. para daje najviše mogućnosti za dalji napredak - testirao sam dosta njegovih varijacija, a testirao sam ga i na sastanku koji smo imali 29.08.2023. - generalno daje konzistentno dobre rezultate.
+
+
+DALJE slede isključivo korišćeni parovi promptova; nema nekog drugog sadržaja do kraja ovog dokumenta.
+
+==================================================================
+
+#### 1. PAR {ok, 0.5}
+Write a comprehensive summary of the provided text. Focus on understanding discussion points, decisions made, action items assigned, and any follow-up actions needed. The summary should be well-organized and easy to understand.
+$$$$
+Write a one-page summary of the meeting transcript. Write the output text only in the Serbian language. Translate into Serbian any English words that you encounter in the text. Omit any profanities. Format the output text so that it has a defined title, a list of participants right beneath it, and headers throughout the text.
+
+
+#### 2. PAR {loš, 0.5}
+Write a thorough summary capturing all of the topics discussed in the meeting. Prioritize brevity while ensuring going through details are covered. Focus on providing
+an efficient overview that emphasizes all business related topics.
+$$$$
+Summarize the contents of the provided meeting transcript. Be sure to identify and extract the most significant and relevant discussion points from the transcript. Additionally, compile a comprehensive list of all participants who took part in the meeting. Write the output text only in the Serbian language. Omit any profanities. Ensure that the summary includes any important conclusions or outcomes that were reached during the meeting. Maintain a professional tone and style of writing throughout the summary. Use bullet points or numbered lists where you find appropriate.
+
+
+#### 3. PAR {ok, 0.0}
+Use Decision Tree modeling to extract all the data that is valuable from the company's perspective from the input text. Form a comprehensive summary of that data.
+$$$$
+Instructions:
+Generate a well-structured summary with clear headings for key decisions, discussions, action items, insights, and participants. Use appropriate formatting, such as bullet points or paragraphs, to make the summary easy to read. Ensure each section is organized logically, facilitating quick comprehension.
+Output:
+Create a polished summary that adheres to the specified format guidelines. Use headings for each section, employ suitable formatting techniques, and maintain a
+coherent flow. Prioritize clarity and readability while conveying the meeting's important aspects. Write the output text only in the Serbian language. Omit any profanities.
+
+
+#### 4. PAR {ok, 0.0}
+Write a comprehensive summary of the provided text. Double-check every decision that you make. Use three different "expert" roles, all of whom need to act professional, to discuss every decision that you make, and agree which one has the optimal solution.
+$$$$
+Utilize a machine learning algorithm "Gradient Boosting" to assist in summarizing the provided meeting transcript. Extract crucial discussion points and insights from the transcript using the algorithm's optimization capabilities. Alongside, compile a comprehensive list of all participants who were present during the meeting. Write the output text only in the Serbian language. Omit any profanities. Ensure that the summary encompasses important conclusions or outcomes resulting from the meeting. Maintain a professional tone and style of writing. Feel free to leverage bullet points or numbered lists for emphasis and clarity.
+
+
+#### 5. PAR {ok, 0.5}
+Summarize the provided meeting transcript using "Extractive Summarization". Remember that this approach involves selecting and reusing sentences from the transcript - do not generate entirely new content.
+$$$$
+Write an extensive summary of the provided meeting transcript. Write the output text only in the Serbian language. Omit any profanities. Be sure to structure the output text to contain the Title and Headers. Double-check every part of the text that you generate - focus on grammar.
+
+
+#### 6. PAR {loš, 0.0}
+Generate a concise summary of the provided meeting transcript. Be sure not to omit any important information.
+$$$$
+Provide a concise summary of the provided meeting transcript. Ensure that your summary includes the following key details:
+1. **Meeting Context:**
+ Begin by briefly describing the purpose and context of the meeting. Highlight the main topic of discussion and any relevant background information.
+2. **Attendees:**
+ List the names and roles of the individuals who participated in the meeting. Identify the key decision-makers, presenters, and participants.
+3. **Agenda:**
+ Outline the agenda items that were discussed during the meeting. Include a clear description of the topics, issues, or projects covered.
+4. **Discussion Highlights:**
+ Summarize the main points and highlights of the discussions for each agenda item. Focus on key insights, decisions made, and any actionable items determined.
+5. **Decisions Made:**
+ Clearly state any significant decisions that were reached during the meeting. Include details about the reasoning behind these decisions.
+6. **Action Items:**
+ Provide a list of actionable tasks that were assigned to specific individuals or teams. Include deadlines and any additional context necessary for these tasks.
+7. **Challenges or Concerns:**
+ Identify any challenges, concerns, or points of contention that were raised during the meeting. Highlight how these issues were addressed or if further discussions are required.
+8. **Next Steps:**
+ Conclude the summary by outlining the next steps to be taken following the meeting. Include any follow-up meetings, deadlines, or milestones that were
+established. Write the output text only in the Serbian language. Omit any profanities.
+
+
+#### 7. PAROVI
+Parovi promptova 7.1 - 7.6 su samo inverzne verzije 1 - 6, respektivno. Jedino treba premestiti "Write the output text only in the Serbian language. Omit any profanities." iz jednog u drugi prompt.
+7.1 PAR {ok, 0.5}
+7.2 PAR {ok, 0.5}
+7.3 PAR {dobar, 0.5}
+7.4 PAR {loš, 0.0}
+7.5 PAR {dobar, 0.5}
+7.6 PAR {loš, 0.5}
+
+
+#### 8. PAR {loš, 0.0}
+Write a comprehensive summary of the provided meeting transcript. Double-check every piece of information that you extract, for content accuracy. Be sure to format the output text, for improved readability.
+$$$$
+Write a one-page grammatically correct summary of the provided meeting transcript. Write the output text only in the Serbian language. Omit any profanities.
+
+
+#### 9. PAR {ok, 0.3}
+Utilize the following template to generate a summary of the provided meeting transcript:
+
+[INTRODUCTION: Briefly introduce the context of the meeting.]
+[MAIN POINT 1: Summarize the key discussion points of the meeting.]
+[MAIN POINT 2: Highlight any decisions or action items that were agreed upon.]
+[MAIN POINT 3: Mention any relevant follow-up tasks or deadlines.]
+[CONCLUSION: Conclude the summary with a final thought or takeaway.]
+
+Ensure that the summary adheres to accurate content, and maintains the provided template structure for consistent formatting.
+$$$$
+Write a one-page summary of the provided meeting transcript. Write the output text only in the Serbian language. Omit any profanities. Ensure complete accuracy in content, grammar, and syntax. Make certain that all key details are appropriately represented and that the summary reads well.
+
+
+#### 10. PAR {ok, 0.0}
+Generate a summary of the provided meeting transcript using the following instructions:
+1. Meeting Context:
+2. Discussion Highlights:
+3. Decisions:
+4. Next Steps:
+5. Remarks:
+$$$$
+Maintain the structure of the summary template for uniform formatting. Validate that all crucial information, discussions, and significant points are included and accurately conveyed in the summary. Write the output text only in the Serbian language. Omit any profanities.
+
+
+#### 11. PAR {dobar, 0.0}
+Generate a summary that strictly adheres to the subsequent template:
+
+[SUMMARY SECTION]
+- Begin with a concise overview.
+- Include at least 3 key points discussed.
+
+[ANALYSIS SECTION]
+- Provide an in-depth analysis of one of the key points.
+
+[ACTION ITEMS SECTION]
+- List actionable decisions made during the meeting.
+- Include responsible parties and deadlines.
+
+[OPEN QUESTIONS SECTION]
+- Highlight any questions raised without definitive answers.
+
+[CONCLUDING REMARKS SECTION]
+- End with a conclusive statement summarizing the overall meeting tone.
+$$$$
+Write a one-page summary of the provided text. Ensure strict adherence to the existing text structure, including all specified elements. Write the output text only in the Serbian language. Omit any profanities. Maintain accurate content, proper grammar, and precise details for each section.
+
+
+#### 12. PAR PROMPTOVA {dobar, 0.3}
+Inverzna verzija 4. - uz naravno premeštanje "Write the output text only in the Serbian language. Omit any profanities."
+
+
+#### 13. PAR PROMPTOVA {loš, 0.6}
+Instructions: Create a summary of the meeting transcript.
+Desired Output:
+[INTRODUCTION]
+[KEY DISCUSSIONS]
+[DECISIONS AND ACTIONS]
+[CONCLUSION]
+
+Please follow these instructions diligently to generate the desired output format.
+$$$$
+Produce a clear and comprehensible summary of the provided meeting transcript. Write the output text only in the Serbian language. Omit any profanities. Ensure that the generated summary exhibits a thorough understanding of the input text's nuances and key details, resulting in an output that effectively communicates the main discussions and takeaways.
+
+
+#### 14. PAR {dobar, 0.0}
+Instructions:
+Write a structured summary with clear headings for key decisions, discussions, action items, insights, and participants. Use appropriate formatting, such as bullet points or paragraphs, to make the summary easy to read. Ensure each section is easily comprehensible.
+Output:
+Create a summary that adheres to the above specified format guidelines. Use headings for each section, employ suitable formatting techniques, and maintain a coherent flow. Prioritize clarity and readability while conveying the meeting's important aspects.
+$$$$
+Write a comprehensive summary based on the data gathered so far. Write the output text only in the Serbian language. Omit any profanities.
+
+
+#### 15. PAR {dobar, 0.0}
+Instructions:
+Write a structured summary of the provided meeting transcript; use headings for every key topic and bullet points for clarity.
+Output:
+Write a text that adheres to the above-specified format guidelines. Prioritize readability while keeping all the important information.
+$$$$
+Write a one-page summary of the provided text. Do not change the existing formatting. Write the output text only in the Serbian language. Omit any profanities.
