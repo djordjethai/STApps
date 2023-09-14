@@ -24,7 +24,6 @@ from langsmith import Client
 from streamlit_feedback import streamlit_feedback
 from langchain.callbacks.tracers.langchain import wait_for_all_tracers
 from random import randint
-from PIL import Image
 from custom_eval import RelevanceEvaluator
 client = Client()
 our_evaluator = RelevanceEvaluator()
@@ -295,11 +294,10 @@ def main():
         feedback_update = st.session_state.get("feedback_update")
         feedback_id = feedback_update.pop("feedback_id")
         client.update_feedback(feedback_id, **feedback_update)
-        image = Image.open(r'C:\Users\nemanja.perunicic\Desktop\Knowledge base\222.png')
-        st.image(image, 
-                 caption='Ova aplikacija radi iterativno - možete odmah ukucati naredno pitanje!',
-                 width=200)
-        # test 1111
+        st.image(
+            "https://test.georgemposi.com/wp-content/uploads/2023/05/positive-logo-red.jpg",
+            caption="Neki tekst ako ima smisla ovde staviti.",
+            width=150)
         x = ["🎭", "🐯", "👺", "👻", "😸", "🤓", "🤡", "🦄", "🧟‍♀️", "☘️"]
         st.write(f"{x[randint(0, len(x) - 1)]} Ova aplikacija radi iterativno - možete odmah ukucati naredno pitanje!")
         client.create_feedback(st.session_state.run_id, "our_evaluation", score=st.session_state.our_score, comment=st.session_state.our_reasoning)

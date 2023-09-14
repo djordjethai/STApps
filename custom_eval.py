@@ -8,7 +8,7 @@ class RelevanceEvaluator(StringEvaluator):
     def __init__(self):
         llm = ChatOpenAI(model="gpt-4", temperature=0)
         # self.sistem_prompt = "Write only in the Serbian language."
-        prompt = """On a scale from 0 to 100, how correct is the following response to the input:
+        prompt = """On a scale from 1 to 5, how correct is the following response to the input:
         -------- INPUT: {input}
         -------- OUTPUT: {prediction}
         -------- While evaluating the response act as if you were a mathematician.
