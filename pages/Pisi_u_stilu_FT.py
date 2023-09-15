@@ -66,7 +66,7 @@ def main():
     if "namespace" not in st.session_state:
         st.session_state.namespace = "koder"
     if "index_name" not in st.session_state:
-        st.session_state.index_name = "embeddings"
+        st.session_state.index_name = "embedings1"
     if "odgovor" not in st.session_state:
         st.session_state.odgovor = ""
     if "tematika" not in st.session_state:
