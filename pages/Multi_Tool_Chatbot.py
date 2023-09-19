@@ -24,9 +24,9 @@ from langsmith import Client
 from streamlit_feedback import streamlit_feedback
 from langchain.callbacks.tracers.langchain import wait_for_all_tracers
 from random import randint
-from custom_eval import RelevanceEvaluator
+# from custom_eval import RelevanceEvaluator
 client = Client()
-our_evaluator = RelevanceEvaluator()
+# our_evaluator = RelevanceEvaluator()
 
 # these are the environment variables that need to be set for LangSmith to work
 os.environ["LANGCHAIN_PROJECT"] = "Multi Tool Chatbot"
@@ -230,12 +230,12 @@ def main():
             st.session_state.stream_handler.clear_text()
             st.session_state.past.append(f"{name}: {upit}")
             st.session_state.generated.append(f"AI Asistent: {output_text}")
-
+            x = """
             pitanje_za_evaluator = pitanje.split('\n')[2]
             eval = our_evaluator.evaluate_strings(prediction=output_text, input=pitanje_za_evaluator)
             st.session_state.our_score = eval["score"]
             st.session_state.our_reasoning = eval["reasoning"]
-
+            """
             # Calculate the length of the list
             num_messages = len(st.session_state['generated'])
 
@@ -296,7 +296,7 @@ def main():
         client.update_feedback(feedback_id, **feedback_update)
         st.image(
             "https://test.georgemposi.com/wp-content/uploads/2023/05/positive-logo-red.jpg",
-            caption="Neki tekst ako ima smisla ovde staviti.",
+            caption="Helloooouuu!",
             width=150)
         x = ["🎭", "🐯", "👺", "👻", "😸", "🤓", "🤡", "🦄", "🧟‍♀️", "☘️"]
         st.write(f"{x[randint(0, len(x) - 1)]} Ova aplikacija radi iterativno - možete odmah ukucati naredno pitanje!")
