@@ -171,7 +171,7 @@ def main():
             Tool(
                 name="search",
                 func=st.session_state.search.run,
-                description="Google search tool. Useful when you need to answer questions about recent events."
+                description="Google search tool. Useful when you need to answer questions about recent events or if someone asks for the current time or date."
             ),
             Tool(
                 name="Pinecone lookup",
