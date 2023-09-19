@@ -176,11 +176,9 @@ def main():
             with st.spinner("Pisem tekst..."):
                 try:
                     st.session_state.odgovor = chain.run(prompt=prompt)
-                    #with st.expander("FINALNI TEKST", expanded=True):
-                    #    st.markdown(st.session_state.odgovor)
                 except Exception as e:
                     st.warning(
-                        f"Nisam u mogucnosti za zavrsim tekst. Ovo je opis greske: {e}")
+                        f"Nisam u mogucnosti za zavrsim tekst. Ovo je opis greske:\n {e}")
 
     # Izrada verzija tekstova za fajlove formnata po izboru
     # html to docx
