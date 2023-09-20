@@ -4,7 +4,7 @@ from mojafunkcja import st_style, positive_login
 
 st.set_page_config(
     page_title="Positive App's",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 st_style()
@@ -15,16 +15,14 @@ def main():
         st.subheader("Welcome to Positive Demo App's")
         st.caption("Sa leve strane mozete da birate aplikacije.")
         st.divider()
-        # col1, col2 = st.columns(2)
-
-        st.caption("OpenAI prikazuje upotrebu OpenAI funcije")
-        st.caption(
-            "LangChain Expression Language prikazuje upotrebu te funkcionalnosti")
-
+        st.caption("""
+                   OpenAI prikazuje upotrebu OpenAI funcije,
+                   LangChain Expression Language prikazuje upotrebu te funkcionalnosti
+                   """)
         with st.sidebar:
+            st.success("Select a Demo from a Drop Box.")
             st.image(
                 "https://test.georgemposi.com/wp-content/uploads/2023/05/positive-logo-red.jpg", width=150)
-            st.success("Select a Demo from a Drop Box.")
 
     def OpenAi_Functions():
         import OpenaifuncST
@@ -32,8 +30,8 @@ def main():
         OpenaifuncST.main()
 
     def LC_Expression_Language():
-        st.subheader("LangChain Expression Language")
         import LangchainexpST
+        st.subheader("LangChain Expression Language")
         LangchainexpST.main()
 
     page_names_to_funcs = {
