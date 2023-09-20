@@ -15,9 +15,9 @@ def main():
     email = st.session_state.get('email')
     access_level = st.session_state.get('access_level')
 
-    st.title("Welcome to Positive App's")
+    st.title("Dobrodošli u :red[**Positive**] aplikacije")
     st.info(
-        f'Your username is :blue[{name}], the email is {email} and access level is :blue[{access_level}].')
+        f'Vaše korisničko ime je :blue[{name}], *e-mail* je {email}, a nivo pristupa je :blue[{access_level}].')
     st.caption("""
                Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
                Za većinu aplikacija možete da birate jezički model i temperaturu.
@@ -26,9 +26,9 @@ def main():
     st.caption("""
                Aplikacije su snabdevene različitim alatima.\n
                Na primer, za ***MP3 to Text*** koristimo *OpenAI* audio model - *Whisper*,\n
-               za ***Koder*** koristimo Pinecone indeks naučen sa sajtova *LangChain* i *Streamlit*,\n
-               za ***Pisi u stilu*** koristimo Pinecone naučen stilovima različitih osoba,\n
-               ***Multi Tool Chatbot*** ima pristup internetu i koristi podatke iz Pinecone indeksa.\n
+               za ***Koder*** koristimo *Pinecone* indeks naučen sa sajtova *LangChain* i *Streamlit*,\n
+               za ***Pisi u stilu*** koristimo *Pinecone* naučen stilovima različitih osoba,\n
+               ***Multi Tool Chatbot*** ima pristup internetu i koristi podatke iz *Pinecone* indeksa.\n
                ***Zapisnik*** generiše zapisnike ili sumarizacije na osnovu transkripta audio fajla.
                """)
     st.sidebar.success("Select an App above.")
