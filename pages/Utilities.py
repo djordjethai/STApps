@@ -13,7 +13,7 @@ st_style()
 def main():
     def intro():
         st.subheader("Dobrodošli na uslužne aplikacije")
-        st.caption("Sa leve strane mozete da birate aplikacije.")
+        st.caption("Sa leve strane možete da birate aplikacije.")
         st.divider()
         st.caption("""
                    Scraper čita web sajtove i smešta podatke u Pinecone Indeks\n
@@ -73,7 +73,7 @@ def main():
         "Change Password": change_login_name
     }
 
-    demo_name = st.sidebar.selectbox("Choose App", page_names_to_funcs.keys())
+    demo_name = st.sidebar.selectbox("Odaberite aplikaciju", page_names_to_funcs.keys())
     page_names_to_funcs[demo_name]()
 
 
