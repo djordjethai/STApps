@@ -1,6 +1,7 @@
 [theme]
 base = "light"
-primaryColor="purple"
+primaryColor = "red"
+secondaryBackgroundColor = "red"
 
 [browser]
 gatherUsageStats = false
