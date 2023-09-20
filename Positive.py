@@ -25,11 +25,11 @@ def main():
     st.divider()
     st.caption("""
                Aplikacije su snabdevene različitim alatima.\n
-               Na primer, za MP3 to TXT koristimo OpenAI Audio model - Whisper,\n
-               za Koder koristimo Pinecone indeks naučen sa sajtova LangChain i Streamlit,\n
-               za Piši u stilu koristimo Pinecone naučen stilovima različitih osoba,\n
+               Na primer, za **MP3 to Text** koristimo *OpenAI* audio model - *Whisper*,\n
+               za *Koder* koristimo Pinecone indeks naučen sa sajtova *LangChain* i *Streamlit*,\n
+               za *Pisi u stilu* koristimo Pinecone naučen stilovima različitih osoba,\n
                *Multi Tool Chatbot* ima pristup internetu i koristi podatke iz Pinecone indeksa.\n
-               App Zapisnik kreira zapisnike ili sumarizacije na osnovu transkripta audio fajla.
+               *Zapisnik* generiše zapisnike ili sumarizacije na osnovu transkripta audio fajla.
                """)
     st.sidebar.success("Select an App above.")
 
