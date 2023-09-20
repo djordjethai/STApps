@@ -16,11 +16,11 @@ def main():
         st.caption("Sa leve strane mozete da birate aplikacije.")
         st.divider()
         st.caption("""
-                   OpenAI prikazuje upotrebu OpenAI funcije,
+                   OpenAI prikazuje upotrebu OpenAI funcije,\n
                    LangChain Expression Language prikazuje upotrebu te funkcionalnosti
                    """)
         with st.sidebar:
-            st.success("Select a Demo from a Drop Box.")
+            st.success("Select a Demo from the Drop Box.")
             st.image(
                 "https://test.georgemposi.com/wp-content/uploads/2023/05/positive-logo-red.jpg", width=150)
 

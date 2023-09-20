@@ -32,19 +32,14 @@ os.environ["LANGCHAIN_ENDPOINT"] = "https://api.langchain.plus"
 os.environ.get("LANGCHAIN_API_KEY")
 
 
-# Zaglavlje stranice
 st.set_page_config(
     page_title="Pisi u stilu",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 
-# glavna funkcija
-
 
 def main():
-
-    # Retrieving GOOGLE API keys from env
     GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
     GOOGLE_CSE_ID = os.environ.get("GOOGLE_CSE_ID")
     # Retrieving API keys from env
@@ -77,9 +72,12 @@ def main():
         st.session_state.stil = ""
 
     # Izbor stila i teme
-    st.subheader('Write in the style of people who have their own FT models')
-    st.caption("App omogucava da se pronadje tekst na odredjenu temu i da se koristi kao osnova za pisanje teksta u stilu odabrane osobe")
-    st.caption("App koristi Pinecone index za pronalazenje teksta na odredjenu temu. Ukoliko ne pronadje odgovarajuci tekst, potrazice odgovor na internetu.")
+    st.subheader('Write in the style of people who have their own Fine-Tunned models')
+    st.caption("""
+               Ova aplikacija omogućava generisanje teksta na određenu temu i da se koristi kao osnova za pisanje teksta u stilu
+               odabrane osobe. Koristi se Pinecone indeks za pronalaženje teksta na određenu temu.
+               Ukoliko ne pronađe odgovarajući tekst, potražiće odgovor na internetu.
+               """)
     with st.sidebar:
         st.session_state.namespace = st.selectbox(
             "Odaberite oblast",
@@ -101,10 +99,10 @@ def main():
 
         st.session_state.temp = st.slider(
             'Set temperature (0=strict, 1=creative)', 0.0, 2.0, step=0.1, value=1.0)
-        st.caption("Temperatura za stil treba de je sto blize vrednosti od 1.0 ")
+        st.caption("Temperatura za stil treba de je što bliže 1.0")
         st.session_state.thold = st.slider(
             'Set relevance (0=any, 1=strict)', 0.0, 1.0, step=0.1, value=0.5)
-        st.caption("Relevance za temu odredjuje koji dokmenti ce se korsititi iz indexa. Ako je vrednost 0.0 onda se koriste svi dokumenti, ako je 1.0 onda samo oni koji su najrelevantniji. ")
+        st.caption("Relevance za temu određuje koji dokmenti će se korsititi iz indeksa. Ako je vrednost 0.0 onda se koriste svi dokumenti, a za 1.0 samo oni koji su najrelevantniji.")
 
     # define model, vestorstore and retriever
     llm = ChatOpenAI(model_name=st.session_state.model, temperature=st.session_state.temp,
@@ -115,7 +113,7 @@ def main():
 
     # Prompt template - Loading text from the file
     prompt_file = st.file_uploader(
-        "Izaberite pocetni prompt koji mozete editovati ili pisite prompt od pocetka za definisanje vaseg zahteva", key="upload_prompt", type='txt')
+        "Izaberite početni prompt koji možete editovati ili pišite prompt od početka za definisanje vašeg zahteva", key="upload_prompt", type='txt')
     prompt_t = ""
     if prompt_file is not None:
         prompt_t = open_file(
@@ -124,14 +122,14 @@ def main():
     # Prompt
     with st.form(key='stilovi', clear_on_submit=False):
 
-        zahtev = st.text_area("Opisite temu, iz oblasti Positive, ili opste teme. Objasnite i formu zeljenog teksta: ",
+        zahtev = st.text_area("Opišite temu, iz oblasti Positive, ili opšte teme. Objasnite i formu željenog teksta: ",
                               prompt_t,
                               key="prompt_prva", height=150)
         submit_button = st.form_submit_button(label='Submit')
         st.session_state.tematika = vectorstore.similarity_search_with_score(zahtev, k=3)
     # pocinje obrada, prvo se pronalazi tematika, zatim stil i na kraju se generise odgovor
     if submit_button:
-        with st.spinner("Obradjujem temu..."):
+        with st.spinner("Obrađujem temu..."):
             broj = 1
             doclist=[]
             uk_teme =""
@@ -142,16 +140,16 @@ def main():
                 if score > st.session_state.thold:
                     # Append the page content to the selected_docs list
                     doclist.append(doc.page_content)
-                    st.info(f"Skor slicnosti za dokument broj {broj} je: {round(score, 2)}")
+                    st.info(f"Score sličnosti za dokument broj {broj} je: {round(score, 2)}")
                     # Now, selected_docs contains the page content of documents with a score greater than st.session_state.thold
             uk_teme = doclist
            # ako ne pronadje temu u indexu, trazi na internetu
             if len(doclist) == 0:
                 st.info(
-                    "Nisam u mogucnosti da pronadjem odgovor u indexu. Pretrazujem internet...")
+                    "Nisam u mogućnosti da pronađem odgovor u indeksu. Pretražujem internet...")
                 uk_teme = search.results(zahtev, 4)
-            st.info(f"Za relevantnost vecu od {st.session_state.thold} broj pronadjenih dokumenata je {len(doclist)} ")
-            st.info(f"Koriscen je model '{ft_model}'. Temperatura je {st.session_state.temp}")
+            st.info(f"Za relevantnost veću od {st.session_state.thold} broj pronađenih dokumenata je {len(doclist)} ")
+            st.info(f"Korišćen je model '{ft_model}' - temperatura je {st.session_state.temp}")
             
           
 
@@ -171,14 +169,14 @@ def main():
             chain = LLMChain(llm=llm, prompt=prompt)
 
             with st.expander("Model i Prompt", expanded=False):
-                st.write(f"Koriscen je prompt: {prompt.messages[0].content} ->  {prompt.messages[1].content} - >")
+                st.write(f"Korišćen je prompt: {prompt.messages[0].content} ->  {prompt.messages[1].content} - >")
             # Run chain to get chatbot's answer
-            with st.spinner("Pisem tekst..."):
+            with st.spinner("Pišem tekst..."):
                 try:
                     st.session_state.odgovor = chain.run(prompt=prompt)
                 except Exception as e:
                     st.warning(
-                        f"Nisam u mogucnosti za zavrsim tekst. Ovo je opis greske:\n {e}")
+                        f"Nisam u mogućnosti da završim tekst. Ovo je opis greške:\n {e}")
 
     # Izrada verzija tekstova za fajlove formnata po izboru
     # html to docx
@@ -219,7 +217,7 @@ def main():
             message_placeholder = st.empty()
             message_placeholder.markdown("Samo sekund!")
             run_collector = RunCollectorCallbackHandler()
-            message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+            message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
                 
             memory = ConversationBufferMemory(
                 chat_memory=StreamlitChatMessageHistory(key="langchain_messages"),
@@ -234,7 +232,7 @@ def main():
                 callbacks=[run_collector], tags=["Streamlit Chat"],)
                 )["text"]            
             
-            message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+            message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
             run = run_collector.traced_runs[0]
             run_collector.traced_runs = []
             st.session_state.run_id = run.id

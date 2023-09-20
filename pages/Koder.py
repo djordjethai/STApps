@@ -1,6 +1,5 @@
 # This code is used to create a code based on LangChain Library using streamlit for web interface
 
-# Import necessary libraries
 from langchain.vectorstores import Pinecone
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
@@ -25,12 +24,14 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.langchain.plus"
 os.environ.get("LANGCHAIN_API_KEY")
 
+
 st.set_page_config(
     page_title="Koder",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 st_style()
+
 
 
 def main():
@@ -57,7 +58,7 @@ def main():
                            text_field, name_space)
 
     # Get user input
-    st.subheader("Koristeci LangChain i Streamlit...")
+    st.subheader("Koristeći LangChain i Streamlit")
 
     # Initialize ChatOpenAI and RetrievalQA
 
@@ -77,7 +78,7 @@ def main():
         query = (
             "Using langchain and streamlite, "
             + st.text_area(
-                label="Detaljno opisite sta zelite da uradim (kod, objasnjenje ili sl): ",
+                label="detaljno opišite šta želite da uradim (kod, objašnjenje ili sl): ",
                 key="1",
                 value=st.session_state["task"],
             )
@@ -88,7 +89,7 @@ def main():
         # If the submit button is clicked, clear the session state and run the query
         if submit_button:
             st.session_state["task"] = ""
-            with st.spinner("Sacekajte trenutak..."):
+            with st.spinner("Sačekajte trenutak..."):
                 st.session_state["izlaz"] = qa.run(query)
                 st.write(st.session_state["izlaz"])
 
@@ -106,7 +107,7 @@ def main():
                 message_placeholder = st.empty()
                 message_placeholder.markdown("Samo sekund!")
                 run_collector = RunCollectorCallbackHandler()
-                message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+                message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
                     
                 memory = ConversationBufferMemory(
                     chat_memory=StreamlitChatMessageHistory(key="langchain_messages"),
@@ -121,7 +122,7 @@ def main():
                     callbacks=[run_collector], tags=["Streamlit Chat"],)
                     )["text"]
                 
-                message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+                message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
                 run = run_collector.traced_runs[0]
                 run_collector.traced_runs = []
                 st.session_state.run_id = run.id

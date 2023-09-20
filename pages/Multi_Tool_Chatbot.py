@@ -25,8 +25,8 @@ from streamlit_feedback import streamlit_feedback
 from langchain.callbacks.tracers.langchain import wait_for_all_tracers
 from random import randint
 # from custom_eval import RelevanceEvaluator
-client = Client()
 # our_evaluator = RelevanceEvaluator()
+client = Client()
 
 # these are the environment variables that need to be set for LangSmith to work
 os.environ["LANGCHAIN_PROJECT"] = "Multi Tool Chatbot"
@@ -36,12 +36,12 @@ os.environ.get("LANGCHAIN_API_KEY")
 
 st.set_page_config(
     page_title="Multi Tool Chatbot",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 
 
-def whoimi(input=""):
+def whoami(input=""):
     """Positive AI asistent"""
     return ("Positive doo razvija AI Asistenta. U ovaj odgovor mozemo dodati bilo koji tekst.")
 
@@ -54,11 +54,14 @@ def new_chat():
     st.session_state["messages"] = []
 
 def main():
-    st.subheader(
-        "AI Asistent je povezan na internet i Positive portfolio i moze da odgovara na pitanja o Positive AI asistentu, Positive doo i njihovom portfoliu, i na pitanja o aktuelnim dogadjajima.")
-    st.info("Mozete birati model i temperaturu, a bice prikazan i streaming output. Moguc je i Download chata. Ako menjate temu, bolje je odabrati opciju New Chat")
-
-    # Initialize session states
+    st.subheader("""
+                 AI Asistent je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu,
+                 Positive d.o.o. i njihovom portfoliu, kao i na pitanja o aktuelnim dogadjajima.
+                 """)
+    st.info("""
+            Možete birati model i temperaturu, a biće prikazan i streaming output.
+            Moguć je i Download chat-a. Ako menjate temu za razgovor, bolje je odabrati opciju New Chat
+            """)
     if "generated" not in st.session_state:
         st.session_state["generated"] = []
     if "cot" not in st.session_state:
@@ -182,7 +185,7 @@ def main():
             ),
             Tool(
                 name="Positive AI asistent",
-                func=whoimi,
+                func=whoami,
                 description="Useful for when you need to answer questions about Positive AI asistent. Input should be Positive AI asistent "
             ),
         ]

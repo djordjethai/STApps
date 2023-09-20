@@ -7,7 +7,7 @@ from mojafunkcja import st_style, positive_login
 
 st.set_page_config(
     page_title="MP3 to Text",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 st_style()
@@ -18,7 +18,7 @@ def main():
     openai.api_key = os.environ.get('OPENAI_API_KEY')
 
     # App start
-    st.subheader("Konvertuje MP3 u TXT")
+    st.subheader("Konvertujte MP3 🔊 u TXT 📄")
     audio_file = st.file_uploader("Choose a file")
     # transcript_json= "transcript"
     transcritpt_text = "transcript"
@@ -29,7 +29,7 @@ def main():
 
         with placeholder.form(key='my_form', clear_on_submit=False):
             jezik = st.radio(
-                "Odaberite jezik izvornog teksta 👉",
+                "Odaberite jezik izvornog teksta ⤵️",
                 key="jezik",
                 options=["sr", "en", "th", "de", "fr", "hu",
                          "it", "ja", "ko", "pt", "ru", "es", "zh"],
@@ -38,7 +38,7 @@ def main():
             submit_button = st.form_submit_button(label='Submit')
 
             if submit_button:
-                with st.spinner("Sacekajte trenutak..."):
+                with st.spinner("Sačekajte trenutak..."):
                     transcript = openai.Audio.transcribe(
                         "whisper-1", audio_file, language=jezik)
                     # transcript_dict = {"text": transcript.text}

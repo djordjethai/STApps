@@ -4,7 +4,7 @@ from mojafunkcja import st_style, positive_login, pinecone_stats
 
 st.set_page_config(
     page_title="Positive App's",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 st_style()
@@ -15,15 +15,17 @@ def main():
         st.subheader("Welcome to Positive Utilities App's")
         st.caption("Sa leve strane mozete da birate aplikacije.")
         st.divider()
-        st.caption("Scraper cita web sajtove i smesta podatke u Pinecone Index")
-        st.caption("Positive ubacuje cele dokumente u Pinecone Index")
-        st.caption("Dokumenti priprema dokumente i Indexira u Pinecone Index")
-        st.caption("Utilities odrzava Pinecone Index")
-        st.caption("Stats prikazuje statistiku Pinecone Indexa")
-        st.caption("New Login otvara novog korsinika")
-        st.caption("Change Login menja ime korisnika")
+        st.caption("""
+                   Scraper čita web sajtove i smešta podatke u Pinecone Index\n
+                   Positive ubacuje cele dokumente u Pinecone Index\n
+                   Dokumenti priprema dokumente i indeksira ih u Pinecone Indeks\n
+                   Utilities održava Pinecone Indeks\n
+                   Stats prikazuje statistiku Pinecone Indeksa\n
+                   New Login otvara novog korsinika\n
+                   Change Login menja ime korisnika
+                   """)
 
-        st.sidebar.success("Select an Utility from a Drop Box.")
+        st.sidebar.success("Select an Utility from the Drop Box.")
 
     def pinecone_scraping():
         import Pinecone_Scraper

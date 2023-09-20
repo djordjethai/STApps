@@ -33,7 +33,7 @@ os.environ.get("LANGCHAIN_API_KEY")
 
 st.set_page_config(
     page_title="Zapisnik",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 st_style()
@@ -46,10 +46,11 @@ def main():
     prompt_string_pam = open_file("prompt_pam.txt")
     opis = "opis"
     st.subheader('Zapisnik')  # Setting the title for Streamlit application
-    st.caption(
-        'U svrhe testiranja mozete birati GPT 4 8K ili GPT 3.5 Turbo 16k modele.')
-    st.caption('Date su standardne instrukcije koji mozete promeniti po potrebi. Promprove mozete cuvati i uploadovati u .txt formatu')
-    st.caption("* dokumenti do velicine 4.000 karaktera ce biti tretirani kao jedan. Dozvoljeni formati su .txt, .docx i .pdf")
+    st.caption("""
+               U svrhe testiranja možete birati GPT 4 (8K) ili GPT 3.5 Turbo (16k) modele.\n
+               Date su standardne instrukcije koji mozete promeniti po potrebi. Promptove možete čuvati i uploado-vati u txt formatu.\n
+               * dokumenti do velicine 5000 karaktera će biti tretirani kao jedan. Dozvoljeni formati su txt, docx i pdf.
+               """)
 
     uploaded_file = st.file_uploader(
         "Izaberite tekst za sumarizaciju", key="upload_file", type=['txt', 'pdf', 'docx'])
@@ -78,14 +79,14 @@ def main():
                          openai_api_key=openai.api_key)
 
         prva_file = st.file_uploader(
-            "Izaberite pocetni prompt koji mozete editovati ili pisite prompt od pocetka", key="upload_prva", type='txt')
+            "Izaberite početni prompt koji možete editovati ili pišite prompt od pocetka", key="upload_prva", type='txt')
 
         if prva_file is not None:
             prva = open_file(prva_file.name)  # Loading text from the file
         else:
             prva = " "
         druga_file = st.file_uploader(
-            "Izaberite finalni prompt koji mozete editovati ili pisite prompt od pocetka", key="upload_druga", type='txt')
+            "Izaberite finalni prompt koji možete editovati ili pišite prompt od početka", key="upload_druga", type='txt')
 
         if druga_file is not None:
             druga = open_file(druga_file.name)  # Loading text from the file
@@ -113,10 +114,10 @@ def main():
         texts = text_splitter.split_documents(result)
         chunkova = len(texts)
         st.success(
-            f"Tekst je dugacak {duzinafajla} karaktera i podeljen je u {chunkova} delova.")
+            f"Tekst je dugačak {duzinafajla} karaktera i podeljen je u {chunkova} delova.")
         if chunkova == 1:
             st.info(
-                "Tekst je kratak i bice obradjen u celini koristeci samo drugi prompt")
+                "Tekst je kratak i biće obradjen u celini koristeći samo drugi prompt")
 
         out_elements = ["Zapisnik -", "m=" + model.rsplit('-', 1)[-1], "t=" + str(temp), 
                         "chunk s_o=" + str(chunk_size/1000) + "k_" + str(chunk_overlap)]
@@ -124,7 +125,7 @@ def main():
 
         with st.form(key='my_form', clear_on_submit=False):
 
-            opis = st.text_area("Unestite instrukcije za pocetnu sumarizaciju (kreiranje vise manjih delova teksta): ",
+            opis = st.text_area("Unestite instrukcije za početnu sumarizaciju (kreiranje vise manjih delova teksta): ",
                                 prva,
                                 key="prompt_prva", height=150)
 
@@ -139,7 +140,7 @@ def main():
             submit_button = st.form_submit_button(label='Submit')
 
             if submit_button:
-                with st.spinner("Sacekajte trenutak..."):
+                with st.spinner("Sačekajte trenutak..."):
                     chain = load_summarize_chain(
                         llm, chain_type="map_reduce", verbose=True, map_prompt=PROMPT, combine_prompt=PROMPT_pam, token_max=4000)
                     # Load the summarization chain with verbose mode
@@ -156,7 +157,7 @@ def main():
                         greska(e)
 
         if st.session_state.dld != "Zapisnik":
-            st.write("Downloadujte vase promptove")
+            st.write("Download-ujte vaše promptove")
             col4, col5 = st.columns(2)
             with col4:
                 st.download_button("Download prompt 1 as .txt",
@@ -196,7 +197,7 @@ def main():
                 message_placeholder = st.empty()
                 message_placeholder.markdown("Samo sekund!")
                 run_collector = RunCollectorCallbackHandler()
-                message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+                message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
                     
                 memory = ConversationBufferMemory(
                     chat_memory=StreamlitChatMessageHistory(key="langchain_messages"),
@@ -211,7 +212,7 @@ def main():
                     callbacks=[run_collector], tags=["Streamlit Chat"],)
                     )["text"]
                 
-                message_placeholder.markdown("Samo jos ocenite od 1 do 5 dobijene rezultate.")
+                message_placeholder.markdown("Samo još ocenite od 1 do 5 dobijene rezultate.")
                 run = run_collector.traced_runs[0]
                 run_collector.traced_runs = []
                 st.session_state.run_id = run.id

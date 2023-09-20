@@ -21,7 +21,7 @@ from mojafunkcja import st_style, positive_login, open_file, init_cond_llm
 # Zaglavlje stranice
 st.set_page_config(
     page_title="Pisi u stilu",
-    page_icon="👋",
+    page_icon="👉",
     layout="wide"
 )
 
@@ -91,9 +91,11 @@ def main():
 
     # Izbor stila i teme
     st.subheader('Write in the style of indexed people')
-    st.caption("App omogucava da se pronadje tekst odredjene osobe na odredjenu temu i da se koristi kao osnova za pisanje teksta u stilu te osobe")
-    st.caption(
-        "Kad bude dovoljno usera sa svojim stilovima, stil se moze odrediti na osnovu imena prijavljenog usera")
+    st.caption("""
+               Ova aplikacija omogućava da se pronađe tekst određene osobe na određenu temu, 
+               i da se koristi kao osnova za pisanje teksta u stilu te osobe.\n
+               Kad bude dovoljno usera sa svojim stilovima, stil se moze odrediti na osnovu imena prijavljenog usera
+               """)
 
 # The SelfQueryRetriever will use the LLM to expand the original query into a richer, more semantic query
 # before searching the vectorstore including meta data information.
@@ -110,18 +112,18 @@ def main():
         search_type="mmr", verbose=True)
     # Prompt template - Loading text from the file
     prompt_file = st.file_uploader(
-        "Za opis teme, izaberite pocetni prompt koji mozete editovati ili pisite prompt od pocetka", key="upload_prompt", type='txt')
+        "Za opis teme, izaberite početni prompt koji možete editovati ili pišite prompt od početka", key="upload_prompt", type='txt')
     if prompt_file is not None:
         st.session_state.prompt = open_file(
             prompt_file.name)
     description_file = st.file_uploader(
-        "Za opis stila, izaberite pocetni prompt koji mozete editovati ili pisite prompt od pocetka", key="upload_prompt_opis", type='txt')
+        "Za opis stila, izaberite početni prompt koji možete editovati ili pišite prompt od početka", key="upload_prompt_opis", type='txt')
     if description_file is not None:
         st.session_state.description_prompt = open_file(
             description_file.name)
     with st.form(key='stilovi', clear_on_submit=False):
         # izbor teme
-        zahtev = st.text_area("Opisite temu, iz oblasti Positive, ili opste teme: ",
+        zahtev = st.text_area("Opišite temu, iz oblasti Positive, ili opšte teme: ",
                               st.session_state.prompt,
                               key="prompt_prva", height=150)
     # izbor osobe
@@ -134,7 +136,7 @@ def main():
 
         prompt_string = PromptTemplate.from_template(formatted_stil)
     # instrukcije za stil
-        oblik = st.text_area("Unestite instrukcije za oblik teksta, duzinu, formatiranje, jezik i sl.: ",
+        oblik = st.text_area("Unesite instrukcije za oblik teksta, dužinu, formatiranje, jezik i sl: ",
                              st.session_state.description_prompt,
                              key="prompt_oblik", height=150)
 
@@ -145,7 +147,7 @@ def main():
 
     if submit_button:
 
-        with st.spinner("Obradjujem temu..."):
+        with st.spinner("Obrađujem temu..."):
 
             # tema init vector_tema, retirever, pred_prompt, pred_odgovor
             #
@@ -185,7 +187,7 @@ def main():
                 llm_chain = LLMChain(prompt=prompt_string, llm=llm)
                 odgovor_tema = llm_chain.predict()
 
-        with st.spinner("Trazim stil..."):
+        with st.spinner("Tražim stil..."):
             stilovi = st.session_state.stil = retriever.get_relevant_documents(
                 formatted_stil)
 
@@ -221,7 +223,7 @@ def main():
             with st.expander("Ceo Prompt", expanded=False):
                 st.write(formatted_final)
 
-        with st.spinner("Pisem tekst..."):
+        with st.spinner("Pišem tekst..."):
 
             # zameniti predict za llmchain
             try:
@@ -232,7 +234,7 @@ def main():
                     st.markdown(st.session_state.odgovor)
             except Exception as e:
                 st.warning(
-                    f"Nisam u mogucnosti za zavrsim tekst. Pokusajte sa modelom koji ima veci kontekst. {e}")
+                    f"Nisam u mogućnosti za završim tekst. Pokušajte sa modelom koji ima veći kontekst. {e}")
     # html to docx
     html = markdown.markdown(st.session_state.odgovor)
     buf = html2docx(html, title="Zapisnik")
