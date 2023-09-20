@@ -17,7 +17,7 @@ def main():
 
     st.title("Dobrodošli u :red[**Positive**] aplikacije")
     st.info(
-        f'Vaše korisničko ime je :blue[{name}], *e-mail* je {email}, a nivo pristupa je :blue[{access_level}].')
+        f'Vaše korisničko ime je :blue[{name}], *e-mail* je {email}, a nivo pristupa je :blue[**{access_level}**].')
     st.caption("""
                Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
                Za većinu aplikacija možete da birate jezički model i temperaturu.
@@ -31,7 +31,7 @@ def main():
                ***Multi Tool Chatbot*** ima pristup internetu i koristi podatke iz *Pinecone* indeksa.\n
                ***Zapisnik*** generiše zapisnike ili sumarizacije na osnovu transkripta audio fajla.
                """)
-    st.sidebar.success("Select an App above.")
+    st.sidebar.success("Odaberite neku od aplikacija iz liste iznad.")
 
 
 name, authentication_status, username = positive_login(main, "03.08.23")

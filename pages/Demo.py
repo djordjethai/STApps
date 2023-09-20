@@ -12,7 +12,7 @@ st_style()
 
 def main():
     def intro():
-        st.subheader("Welcome to Positive Demo App's")
+        st.subheader("Dobrodošli u :red[**Positive**] :green[**Demo**] aplikacije")
         st.caption("Sa leve strane mozete da birate aplikacije.")
         st.divider()
         st.caption("""
