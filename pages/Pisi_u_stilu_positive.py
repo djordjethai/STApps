@@ -90,11 +90,11 @@ def main():
         st.session_state.tematika = " "
 
     # Izbor stila i teme
-    st.subheader('Write in the style of indexed people')
+    st.subheader('Pišite u stilu indeksiranih osoba')
     st.caption("""
                Ova aplikacija omogućava da se pronađe tekst određene osobe na određenu temu, 
                i da se koristi kao osnova za pisanje teksta u stilu te osobe.\n
-               Kad bude dovoljno usera sa svojim stilovima, stil se moze odrediti na osnovu imena prijavljenog usera
+               Kada bude bilo dovoljno osoba sa svojim stilovima, stil se moze odrediti na osnovu imena prijavljenog korisnika.
                """)
 
 # The SelfQueryRetriever will use the LLM to expand the original query into a richer, more semantic query
@@ -127,7 +127,7 @@ def main():
                               key="prompt_prva", height=150)
     # izbor osobe
         izbor_osobe = st.selectbox(
-            "Choose person name to use their style:", ("", "Miljan Radanovic", "Sean Carroll", "Dragan Varagic", "Neuka Osoba", "JJ Zmaj", "Dragan Simic", "Djordje Medakovic"))
+            "Odaberite osobu:", ("", "Miljan Radanovic", "Sean Carroll", "Dragan Varagic", "Neuka Osoba", "JJ Zmaj", "Dragan Simic", "Djordje Medakovic"))
         # ime_osobe = open_file('ime_osobe.txt')
         izbor_stila = open_file('ime_osobe.txt')
         formatted_stil = izbor_stila.format(
@@ -176,11 +176,11 @@ def main():
             # Display the combined content
 
             with st.expander("Tema", expanded=False):
-                st.write("Relevant documents:")
+                st.write("Relevantni dokumenti:")
                 if sve_zajedno:
                     st.write(formatted_string)
                 else:
-                    st.write("No relevant documents found.")
+                    st.write("Nisu pronađeni relevantni dokumenti.")
 # ovde treba uraditi rewrite sa nekim dobrim promptom
 
                 llm_chain = LLMChain(prompt=prompt_string, llm=llm)

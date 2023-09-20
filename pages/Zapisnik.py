@@ -124,11 +124,11 @@ def main():
 
         with st.form(key='my_form', clear_on_submit=False):
 
-            opis = st.text_area("Unestite instrukcije za početnu sumarizaciju (kreiranje vise manjih delova teksta): ",
+            opis = st.text_area("Unesite instrukcije za početnu sumarizaciju (kreiranje više manjih delova teksta): ",
                                 prva,
                                 key="prompt_prva", height=150)
 
-            opis_kraj = st.text_area("Unestite instrukcije za finalnu sumarizaciju (kreiranje finalne verzije teksta): ",
+            opis_kraj = st.text_area("Unesite instrukcije za finalnu sumarizaciju (kreiranje finalne verzije teksta): ",
                                      druga,
                                      key="prompt_druga", height=150)
 
