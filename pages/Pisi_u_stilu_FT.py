@@ -72,7 +72,7 @@ def main():
         st.session_state.stil = ""
 
     # Izbor stila i teme
-    st.subheader('Write in the style of people who have their own Fine-Tunned models')
+    st.subheader("Pišite u stilu osoba koje imaju sopstvene Fine-Tunned modele")
     st.caption("""
                Ova aplikacija omogućava generisanje teksta na određenu temu i da se koristi kao osnova za pisanje teksta u stilu
                odabrane osobe. Koristi se Pinecone indeks za pronalaženje teksta na određenu temu.
@@ -116,8 +116,9 @@ def main():
         "Izaberite početni prompt koji možete editovati ili pišite prompt od početka za definisanje vašeg zahteva", key="upload_prompt", type='txt')
     prompt_t = ""
     if prompt_file is not None:
-        prompt_t = open_file(
-            prompt_file.name)
+        prompt_t = prompt_file.getvalue().decode("utf-8")
+    else:
+        prompt_t = " "
 
     # Prompt
     with st.form(key='stilovi', clear_on_submit=False):

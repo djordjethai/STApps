@@ -39,7 +39,7 @@ st.set_page_config(
 st_style()
 
 def main():
-    # Read OpenAI API key from env
+    # Read OpenAI API key from envtekst za
     openai.api_key = os.environ.get('OPENAI_API_KEY')
     # initial prompt
     prompt_string = open_file("prompt_summarizer.txt")
@@ -80,16 +80,15 @@ def main():
 
         prva_file = st.file_uploader(
             "Izaberite početni prompt koji možete editovati ili pišite prompt od pocetka", key="upload_prva", type='txt')
-
         if prva_file is not None:
-            prva = open_file(prva_file.name)  # Loading text from the file
+            prva = prva_file.getvalue().decode("utf-8")  # Loading text from the file
         else:
             prva = " "
+        
         druga_file = st.file_uploader(
             "Izaberite finalni prompt koji možete editovati ili pišite prompt od početka", key="upload_druga", type='txt')
-
         if druga_file is not None:
-            druga = open_file(druga_file.name)  # Loading text from the file
+            druga = druga_file.getvalue().decode("utf-8")  # Loading text from the file
         else:
             druga = " "
 
