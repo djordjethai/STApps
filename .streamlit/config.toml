@@ -1,5 +1,5 @@
 [theme]
-font = "monospace"
+base = "light"
 
 [browser]
 gatherUsageStats = false
