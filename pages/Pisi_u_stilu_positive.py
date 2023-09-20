@@ -114,8 +114,7 @@ def main():
     prompt_file = st.file_uploader(
         "Za opis teme, izaberite početni prompt koji možete editovati ili pišite prompt od početka", key="upload_prompt", type='txt')
     if prompt_file is not None:
-        st.session_state.prompt = open_file(
-            prompt_file.name)
+        st.session_state.prompt = prompt_file.getvalue().decode("utf-8")
     description_file = st.file_uploader(
         "Za opis stila, izaberite početni prompt koji možete editovati ili pišite prompt od početka", key="upload_prompt_opis", type='txt')
     if description_file is not None:
