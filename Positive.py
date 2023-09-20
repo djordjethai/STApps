@@ -17,7 +17,7 @@ def main():
 
     st.title("Welcome to Positive App's")
     st.info(
-        f'Your username is :blue[{name}], the email is {email} and access level is :blue{access_level}.')
+        f'Your username is :red[{name}], the email is :red[{email}] and access level is :red[{access_level}].')
     st.caption("""
                Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
                Za većinu aplikacija možete da birate jezički model i temperaturu.
