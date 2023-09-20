@@ -75,7 +75,7 @@ def main():
     st.subheader("Pišite u stilu osoba koje imaju sopstvene Fine-Tunned modele")
     st.caption("""
                Ova aplikacija omogućava generisanje teksta na određenu temu i da se koristi kao osnova za pisanje teksta u stilu
-               odabrane osobe. Koristi se Pinecone indeks za pronalaženje teksta na određenu temu.
+               odabrane osobe.\n Koristi se Pinecone indeks za pronalaženje teksta na određenu temu.
                Ukoliko ne pronađe odgovarajući tekst, potražiće odgovor na internetu.
                """)
     with st.sidebar:
