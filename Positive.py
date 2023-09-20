@@ -18,11 +18,9 @@ def main():
     st.title("Welcome to Positive App's")
     st.info(
         f'Your username is {name} and email is {email} and access level is {access_level}.')
-    st.divider()
-    st.caption("""
-               Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
-               Za većinu aplikacija mozete da birate jezički model i temperaturu.
-               """)
+    st.caption(
+        """**Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
+        Za većinu aplikacija mozete da birate jezički model i temperaturu.**""")
     st.divider()
     st.caption("""
                Aplikacije su snabdevene razlicitim alatima.\n
