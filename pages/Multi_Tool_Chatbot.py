@@ -55,7 +55,7 @@ def new_chat():
 
 def main():
     st.subheader("""
-                 AI Asistent je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu,
+                 AI Asistent je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu,\n
                  Positive d.o.o. i njihovom portfoliu, kao i na pitanja o aktuelnim događajima.
                  """)
     st.info("""
