@@ -19,15 +19,15 @@ def main():
     st.info(
         f'Your username is {name} and email is {email} and access level is {access_level}.')
     st.caption(
-        """**Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.
+        """**Sa leve strane možete da birate aplikacije. Skrolujte po potrebi da vidite sve aplikacije.\n
         Za većinu aplikacija mozete da birate jezički model i temperaturu.**""")
     st.divider()
     st.caption("""
-               Aplikacije su snabdevene razlicitim alatima. 
-               Na primer, za MP3 to TXT koristimo OpenAI Audio model - Whisper,
-               za Koder koristimo Pinecone index naucen sa sajtova LangChain i Streamlit,
-               za Pisi u stilu koristimo Pinecone naucen stilovima razlicitih osoba,
-               Multi Tool Chatbot ima pristup internetu i koristi podatke iz Pinecone indeksa.
+               Aplikacije su snabdevene razlicitim alatima. \n
+               Na primer, za MP3 to TXT koristimo OpenAI Audio model - Whisper,\n
+               za Koder koristimo Pinecone index naucen sa sajtova LangChain i Streamlit,\n
+               za Pisi u stilu koristimo Pinecone naucen stilovima razlicitih osoba,\n
+               Multi Tool Chatbot ima pristup internetu i koristi podatke iz Pinecone indeksa.\n
                App Zapisnik kreira zapisnike ili sumarizacije na osnovu transkripta audio fajla.
                """)
     st.sidebar.success("Select an App above.")
