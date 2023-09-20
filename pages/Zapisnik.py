@@ -45,7 +45,7 @@ def main():
     prompt_string = open_file("prompt_summarizer.txt")
     prompt_string_pam = open_file("prompt_pam.txt")
     opis = "opis"
-    st.subheader('Zapisnik')  # Setting the title for Streamlit application
+    st.subheader('Zapisnik ✍️')  # Setting the title for Streamlit application
     st.caption("""
                U svrhe testiranja možete birati GPT 4 (8K) ili GPT 3.5 Turbo (16k) modele.\n
                Date su standardne instrukcije koji mozete promeniti po potrebi. Promptove možete čuvati i uploado-vati u txt formatu.\n

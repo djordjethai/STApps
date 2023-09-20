@@ -72,7 +72,7 @@ def main():
         st.session_state.stil = ""
 
     # Izbor stila i teme
-    st.subheader("Pišite u stilu osoba koje imaju sopstvene Fine-Tunned modele")
+    st.subheader("Pišite u stilu osoba koje imaju sopstvene Fine-Tunned modele 🏙️")
     st.caption("""
                Ova aplikacija omogućava generisanje teksta na određenu temu i da se koristi kao osnova za pisanje teksta u stilu
                odabrane osobe.\n Koristi se Pinecone indeks za pronalaženje teksta na određenu temu.

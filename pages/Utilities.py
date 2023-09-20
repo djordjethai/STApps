@@ -12,7 +12,7 @@ st_style()
 
 def main():
     def intro():
-        st.subheader("Dobrodošli na uslužne aplikacije")
+        st.subheader("Dobrodošli na uslužne aplikacije 🚙")
         st.caption("Sa leve strane možete da birate aplikacije.")
         st.divider()
         st.caption("""

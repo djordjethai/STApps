@@ -90,7 +90,7 @@ def main():
         st.session_state.tematika = " "
 
     # Izbor stila i teme
-    st.subheader('Pišite u stilu indeksiranih osoba')
+    st.subheader('Pišite u stilu indeksiranih osoba 🌆')
     st.caption("""
                Ova aplikacija omogućava da se pronađe tekst određene osobe na određenu temu, 
                i da se koristi kao osnova za pisanje teksta u stilu te osobe.\n

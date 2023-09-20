@@ -55,7 +55,7 @@ def new_chat():
 
 def main():
     st.subheader("""
-                 AI Asistent je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu, Positive d.o.o. i njihovom portfoliu, kao i na pitanja o aktuelnim događajima.
+                 AI Asistent 🧠 je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu, Positive d.o.o. i njihovom portfoliu, kao i na pitanja o aktuelnim događajima.
                  """)
     st.info("""
             Možete birati model i temperaturu, a biće prikazan i streaming output.

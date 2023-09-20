@@ -58,7 +58,7 @@ def main():
                            text_field, name_space)
 
     # Get user input
-    st.subheader("Koristeći LangChain i Streamlit")
+    st.subheader("Koristeći LangChain i Streamlit 🔢")
 
     # Initialize ChatOpenAI and RetrievalQA
 
