@@ -78,20 +78,19 @@ def main():
                    FT se odnosi na Fine-Tuning, tj. prilagođavanje aplikacije nekoj specifičnoj primeni (iliti specijalizacija)
                    - u našem slučaju se aplikacija prilagođava nečijem stilu pisanja (npr. od Miljana).
                    """)
-        st.caption("""
-                   \n
-                   \t1.	Parametri za podešavanje rada aplikacije - opisani su u levom meniju, a i intuitivni su.\n
-                   \t2.	Uploadovanje ili direktno kucanje teksta/teme o kojoj biste da pišete. 
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilut1.png")
+        st.caption("""\n
+                   1.	Parametri za podešavanje rada aplikacije - opisani su u levom meniju, a i intuitivni su.\n
+                   2.	Uploadovanje ili direktno kucanje teksta/teme o kojoj biste da pišete.\n
                    Ono što uploadujete će se prikazati u tekstualnom polju ispod - to polje je ono što aplikacija gleda kada se izvršava.\n
-                   \t3.	Ovde je obrnuto u odnosu na Multi Tool Chatbot - prvo se unosi komentar, pa se onda ocenjuje (slika ispod).
+                   3.	Ovde je obrnuto u odnosu na Multi Tool Chatbot - prvo se unosi komentar, pa se onda ocenjuje (slika ispod).
                    """)
-        
-        st.caption("""
-                   \n
-                   \t1.	Generisani tekst i opcije za skidanje teksta na računar u različitim oblicima.\n
-                   \t2.	Komentar koji ste upisali, pa kliknuli Enter ili strelicu u uglu polja za komentarsanje.\n
-                   \t3.	Ocenjivanje od 1 do 5.\n
-                   \t4.	Polje za unos komentara je sada zaključano – mora refresh stranice da bi se aplikacija opet koristila.\n
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilut2.png")
+        st.caption("""\n
+                   1.	Generisani tekst i opcije za skidanje teksta na računar u različitim oblicima.\n
+                   2.	Komentar koji ste upisali, pa kliknuli Enter ili strelicu u uglu polja za komentarsanje.\n
+                   3.	Ocenjivanje od 1 do 5.\n
+                   4.	Polje za unos komentara je sada zaključano - mora refresh stranice da bi se aplikacija opet koristila.\n
                    """)
         
     st.caption("""
