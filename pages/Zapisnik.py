@@ -51,9 +51,9 @@ def main():
                    Služi za generisanje sažetaka transkripta sastanaka - učitate mu sami transkript
                    (to mora da se učita, ne može da se kuca direktno na sajtu) - onda ili ukucavate ili učitavate promptove.\n
                    Promptovima govorite kako bi hteli da se vrši sumarizacija (koliko detaljno, na šta da se fokusira ili
-                   šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.
+                   šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.\n
+                   Promptove možete naći na Public-u - folder AI Dev.
                    """)
-        st.markdown("<small><a href='X:\AI Dev' style='color: grey;'>Promptove možete naći ovde.</a></small>", unsafe_allow_html=True)
         st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik1.png")
         st.caption("""\n
                    1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
