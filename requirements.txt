@@ -66,6 +66,7 @@ jsonschema-specifications==2023.7.1
 jupyter_client==8.3.0
 jupyter_core==5.3.1
 langchain==0.0.281
+langchainplus-sdk==0.0.20
 langsmith==0.0.23
 lark==1.1.7
 loguru==0.7.0
@@ -92,7 +93,10 @@ packaging==23.1
 pandas==2.0.3
 parse==1.19.1
 parso==0.8.3
+pdf2image==1.16.3
 pdfkit==1.0.0
+pdfminer==20191125
+pdfminer.six==20221105
 pickleshare==0.7.5
 Pillow==9.5.0
 pinecone-client==2.2.2
