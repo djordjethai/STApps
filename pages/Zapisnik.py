@@ -54,13 +54,12 @@ def main():
                    šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.
                    """)
         st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik1.png")
-        st.caption("""
-                   \n
-                   \t\t1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
-                   \t2.	Uploadovanje teksta koji biste da sumarizujete.\n
-                   \t3.	Uploadovanje ili ručno unošenje promptova koje primenjujete nad tim tekstom.
+        st.caption("""\n
+                   1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
+                   2.	Uploadovanje teksta koji biste da sumarizujete.\n
+                   3.	Uploadovanje ili ručno unošenje promptova koje primenjujete nad tim tekstom.
                    Isto kao i kod Pisi u stilu FT, aplikacija gleda ono što je u tekstualnom polju.\n
-                   \t4.	Polje za unos komentara, nakon izvršavanja programa.
+                   4.	Polje za unos komentara, nakon izvršavanja programa.
                    Napomena: unos komentara i ocenjivanje kod Zapisnika je potpuno analogno onom za Pisi u stilu FT.\n
                    Pojašnjenje:\n
                    Postoje dva prompta: početni i finalni - razlog je to što program deli tekst na više celina
@@ -68,6 +67,14 @@ def main():
                    Za sada se pokazalo da dobijamo bolje rezultate ako više forsiramo instrukcije za sumarizaciju kroz početni prompt.
                    """)
         st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik2.png")
+        st.caption("""\n
+                   1.	Izlaz iz programa - sumarizovan tekst i opcije za download-ovanje.\n
+                   2.	Komentar na sumarizovan tekst (nakon kliktanja na Enter).\n
+                   3.	Ocenjivanje (1 - 5).\n
+                   4.	Polje za unos komentara je sada zaključano - za novu iteraciju je najbolje uraditi refresh stranice.\n
+                   Napomena:\n
+                   Ova aplikacija trenutno nije predviđena za iterativnu upotrebu.
+                   """)
     st.caption("""
                U svrhe testiranja možete birati GPT 4 (8K) ili GPT 3.5 Turbo (16k) modele.\n
                Date su standardne instrukcije koji mozete promeniti po potrebi. Promptove možete čuvati i uploado-vati u txt formatu.\n
@@ -203,7 +210,7 @@ def main():
                                    file_name=out_name + ".docx",
                                    mime="docx")
 
-            with st.expander('Summary', True):
+            with st.expander('Sažetak', True):
                 # Generate the summary by running the chain on the input documents and store it in an AIMessage object
                 st.write(st.session_state.dld)  # Displaying the summary
 
