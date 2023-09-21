@@ -46,10 +46,30 @@ def main():
     prompt_string_pam = open_file("prompt_pam.txt")
     opis = "opis"
     st.subheader('Zapisnik ✍️')  # Setting the title for Streamlit application
+    with st.expander("Pročitajte uputstvo 🧜"):
+        st.caption("""
+                   Služi za generisanje sažetaka transkripta sastanaka - učitate mu sami transkript
+                   (to mora da se učita, ne može da se kuca direktno na sajtu) - onda ili ukucavate ili učitavate promptove.\n
+                   Promptovima govorite kako bi hteli da se vrši sumarizacija (koliko detaljno, na šta da se fokusira ili
+                   šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.
+                   """)
+        
+        st.caption("""
+                   \t1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
+                   \t2.	Uploadovanje teksta koji biste da sumarizujete.\n
+                   \t3.	Uploadovanje ili ručno unošenje promptova koje primenjujete nad tim tekstom.
+                   Isto kao i kod Pisi u stilu FT, aplikacija gleda ono što je u tekstualnom polju.\n
+                   \t4.	Polje za unos komentara, nakon izvršavanja programa.
+                   Napomena: unos komentara i ocenjivanje kod Zapisnika je potpuno analogno onom za Pisi u stilu FT.\n
+                   Pojašnjenje:\n
+                   Postoje dva prompta: početni i finalni - razlog je to što program deli tekst na više celina
+                   koje se potom obrađuju pojedinačno, pa kasnije kombinuju u jednu celinu, koja se ispisuje u aplikaciji.
+                   Za sada se pokazalo da dobijamo bolje rezultate ako više forsiramo instrukcije za sumarizaciju kroz početni prompt.
+                   """)
     st.caption("""
                U svrhe testiranja možete birati GPT 4 (8K) ili GPT 3.5 Turbo (16k) modele.\n
                Date su standardne instrukcije koji mozete promeniti po potrebi. Promptove možete čuvati i uploado-vati u txt formatu.\n
-               * dokumenti do velicine 5000 karaktera će biti tretirani kao jedan. Dozvoljeni formati su txt, docx i pdf.
+               * Dokumenti veličine do 5000 karaktera će biti tretirani kao jedan. Dozvoljeni formati su txt, docx i pdf.
                """)
 
     uploaded_file = st.file_uploader(
@@ -165,7 +185,7 @@ def main():
 
                 st.download_button("Download prompt 2 as .txt",
                                    opis_kraj, file_name="prompt2.txt")
-            st.write("Downloadujte vas zapisnik")
+            st.write("Download-ujte vas zapisnik")
             col1, col2, col3 = st.columns(3)
             with col1:
                 st.download_button("Download Zapisnik as .txt",
