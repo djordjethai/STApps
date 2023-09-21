@@ -55,6 +55,7 @@ def main():
                    """)
         
         st.caption("""
+                   \n
                    \t1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
                    \t2.	Uploadovanje teksta koji biste da sumarizujete.\n
                    \t3.	Uploadovanje ili ručno unošenje promptova koje primenjujete nad tim tekstom.

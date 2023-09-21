@@ -57,6 +57,45 @@ def main():
     st.subheader("""
                  AI Asistent 🧠 je povezan na internet i Positive portfolio i može da odgovara na pitanja o Positive AI asistentu, Positive d.o.o. i njihovom portfoliu, kao i na pitanja o aktuelnim događajima.
                  """)
+    with st.expander("Pročitajte uputstvo 🧜‍♂️"):
+        st.caption("""
+                   \n
+                   \t1.	Ako želite da se izlogujete ili da započnete novi chat - ove konkretne opcije vam i neće biti bitne.\n
+                   \t2.	Odabir modela (tri su u ponudi) i postavljanje temperature.\n
+                   \t3.	Pitanje koje bi ste postavili našem chatbot-u; ova aplikacija je najsličnija ChatGPT-u, tako da u teoriji možete da pitate bilo šta.\n
+                   Pojašnjenje:
+                   U ovoj aplikaciji birate modele: gpt-3.5 turbo, gpt-3.5 turbo-16k i gpt-4. Ovi modeli se razlikuju po kvalitetu, brzini i ceni. 
+                   Pored opcija odabir modela i temperatura imate i zaokruženi upitnik, koji će vam dati kratko objašnjenje o ovim podešavanjima. Temperatura određuje kreativnost odgovora modela:\n
+                   \t•	0 do 0,3 za precizne, činjenične odgovore,\n
+                   \t•	0,4 do 0,8 za koherentne i tečne odgovore,\n
+                   \t•	0,9 do 1,2 za kreativne i razgovorne odgovore,\n
+                   \t•	1,3 do 2 za veoma nasumične i hirovite odgovore,\n
+                   Do sada je već utvrđeno da za potrebe Positive-a temperatura kod Multi Tool Chatbot-a (a i Zapisnika, kasnije) ne treba ići preko 0,7.
+                   Na donjem desnom delu ekrana je okvir chat-a u kojem stoji “Postavite pitanje” gde pišete Vaš upit i klikom na Enter (ili strelica u desnom uglu) asistent kreće u traženje odgovora (“RUNNING”- se prikazuje u krajnjem gornjem desnom ćošku prikazuje proces traženja).
+                   """)
+        
+        st.caption("""
+                   \n
+                   \t1.	Pitanje koje ste ukucali, pa potom kliknuli na Enter.\n
+                   \t2.	Odgovor chatbot-a; Chain of Thought daje tok razmišljanja našeg chatbot-a (kako je došao do rešenja).\n
+                   \t3.	Ocenite (1 - 5) vaš utisak o dobijenom finalnom odgovoru (Chain of Thought nije bitan) - 
+                   ocenjujte SAMO na osnovu odgovora; tok izvršavanja, brzina i izgled aplikacije nisu bitni.\n
+                   \t4.	Unos novog pitanja (to dolazi kasnije, pogledajte narednu sliku). Možete odmah postaviti novo pitanje, ali nam znače I komentari, ako ih imate.\n
+                   Pojašnjenje:
+                   Ispod odgovora u padajućem meniju se nalazi “lanac misli” tj. prikaz izvora informacija modela.
+                   U desnom delu imate 5 smajlija koji predstavljaju ocene od 1 do 5. Ocenite odgovor koji vam je model dao,
+                   pa će se zatim otvoriti opcija da ostavite svoj komentar/napomenu na sam rad i performanse programa,
+                   posle čijeg upisa kliknete obavezno Enter.
+                   """)
+
+                   
+        st.caption("""
+                   \n
+                   \t1.	Kada date ocenu - odabrani smajli će ostati na ekranu i pojaviće se novi widget za unos teksta,
+                   tu upišite komentare/napomene koje imate i klinkite Enter.
+                   Napomena: ovaj widget ne podržava prenos u novi red pomoću Shift + Enter, tj. možete da pišete samo u jednom,
+                   neprekidnom redu. Nakon ovoga treba uneti novo pitanje.
+                    """)
     st.info("""
             Možete birati model i temperaturu, a biće prikazan i streaming output.
             Moguć je i Download chat-a. Ako menjate temu za razgovor, bolje je odabrati opciju New Chat
