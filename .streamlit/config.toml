@@ -8,6 +8,9 @@ font="sans serif"
 [browser]
 gatherUsageStats = false
 
+[server]
+enableXsrfProtection = false
+
 # Allowed values:
 # * "auto"      : Show the developer options if the app is accessed through
 #                 localhost or through Streamlit Community Cloud as a developer.
