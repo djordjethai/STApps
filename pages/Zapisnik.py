@@ -53,6 +53,7 @@ def main():
                    Promptovima govorite kako bi hteli da se vrši sumarizacija (koliko detaljno, na šta da se fokusira ili
                    šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.
                    """)
+        st.markdown("<a href='X:\AI Dev' style='font-size: 10px; color: grey;'>Promptove možete naći ovde.</a>", unsafe_allow_html=True)
         st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik1.png")
         st.caption("""\n
                    1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
