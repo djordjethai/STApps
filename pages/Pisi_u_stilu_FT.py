@@ -79,6 +79,7 @@ def main():
                    - u našem slučaju se aplikacija prilagođava nečijem stilu pisanja (npr. od Miljana).
                    """)
         st.markdown("<small><a href='X:\AI Dev' style='color: grey;'>Promptove možete naći ovde.</a></small>", unsafe_allow_html=True)
+        st.markdown("<small><a href='file:///X:/AI Dev' style='color: grey;'>Promptove možete naći ovde 2.</a></small>", unsafe_allow_html=True)
         st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilu1.png")
         st.caption("""\n
                    1.	Parametri za podešavanje rada aplikacije - opisani su u levom meniju, a i intuitivni su.\n
