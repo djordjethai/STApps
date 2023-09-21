@@ -78,14 +78,14 @@ def main():
                    FT se odnosi na Fine-Tuning, tj. prilagođavanje aplikacije nekoj specifičnoj primeni (iliti specijalizacija)
                    - u našem slučaju se aplikacija prilagođava nečijem stilu pisanja (npr. od Miljana).
                    """)
-        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilut1.png")
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilu1.png")
         st.caption("""\n
                    1.	Parametri za podešavanje rada aplikacije - opisani su u levom meniju, a i intuitivni su.\n
                    2.	Uploadovanje ili direktno kucanje teksta/teme o kojoj biste da pišete.\n
                    Ono što uploadujete će se prikazati u tekstualnom polju ispod - to polje je ono što aplikacija gleda kada se izvršava.\n
                    3.	Ovde je obrnuto u odnosu na Multi Tool Chatbot - prvo se unosi komentar, pa se onda ocenjuje (slika ispod).
                    """)
-        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilut2.png")
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/PisiUStilu2.png")
         st.caption("""\n
                    1.	Generisani tekst i opcije za skidanje teksta na računar u različitim oblicima.\n
                    2.	Komentar koji ste upisali, pa kliknuli Enter ili strelicu u uglu polja za komentarsanje.\n
