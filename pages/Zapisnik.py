@@ -53,10 +53,10 @@ def main():
                    Promptovima govorite kako bi hteli da se vrši sumarizacija (koliko detaljno, na šta da se fokusira ili
                    šta da izbegava, itd.) i kako bi hteo da je strukturiran/formatiran izlazni tekst.
                    """)
-        
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik1.png")
         st.caption("""
                    \n
-                   \t1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
+                   \t\t1.	Odabir modela i temperature (isto kao i kod Multi Tool Chatbot-a)\n
                    \t2.	Uploadovanje teksta koji biste da sumarizujete.\n
                    \t3.	Uploadovanje ili ručno unošenje promptova koje primenjujete nad tim tekstom.
                    Isto kao i kod Pisi u stilu FT, aplikacija gleda ono što je u tekstualnom polju.\n
@@ -67,6 +67,7 @@ def main():
                    koje se potom obrađuju pojedinačno, pa kasnije kombinuju u jednu celinu, koja se ispisuje u aplikaciji.
                    Za sada se pokazalo da dobijamo bolje rezultate ako više forsiramo instrukcije za sumarizaciju kroz početni prompt.
                    """)
+        st.image("https://test.georgemposi.com/wp-content/uploads/2023/09/Zapisnik2.png")
     st.caption("""
                U svrhe testiranja možete birati GPT 4 (8K) ili GPT 3.5 Turbo (16k) modele.\n
                Date su standardne instrukcije koji mozete promeniti po potrebi. Promptove možete čuvati i uploado-vati u txt formatu.\n
