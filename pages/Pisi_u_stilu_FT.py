@@ -12,7 +12,6 @@ from langchain import LLMChain
 from langchain.prompts.chat import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
 from html2docx import html2docx
 import markdown
-import pdfkit
 from mojafunkcja import st_style, positive_login, open_file
 from langchain.utilities.google_search import GoogleSearchAPIWrapper
 
@@ -24,6 +23,9 @@ from streamlit_feedback import streamlit_feedback
 from langchain.callbacks.tracers.langchain import wait_for_all_tracers
 from vanilla_chain import get_llm_chain
 client = Client()
+
+from xhtml2pdf import pisa
+import io
 
 # these are the environment variables that need to be set for LangSmith to work
 os.environ["LANGCHAIN_PROJECT"] = "Stil"
@@ -207,21 +209,19 @@ def main():
             st.markdown(st.session_state.odgovor)
         html = markdown.markdown(st.session_state.odgovor)
         buf = html2docx(html, title="Zapisnik")
-        # create pdf
-        options = {
-            'encoding': 'UTF-8',  # Set the encoding to UTF-8
-            'no-outline': None,
-            'quiet': ''
-        }
-        pdf_data = pdfkit.from_string(html, False, options=options)
 
-        # download
-        st.download_button("Download TekstuStilu.txt",
-                           st.session_state.odgovor, file_name="TekstuStilu.txt")
+        x = """
+        x = io.BytesIO()
+        pisa.CreatePDF(html, dest=x, encoding='utf-8')
+        pdf_data = x.getvalue()
         st.download_button(label="Download TekstuStilu.pdf",
                            data=pdf_data,
                            file_name="TekstuStilu.pdf",
                            mime='application/octet-stream')
+        """
+        st.download_button("Download TekstuStilu.txt",
+                           st.session_state.odgovor, file_name="TekstuStilu.txt")
+        
         st.download_button(
             label="Download TekstuStilu.docx",
             data=buf.getvalue(),
