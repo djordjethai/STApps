@@ -10,7 +10,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.agents import Tool, AgentType, initialize_agent
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
-from langchain.utilities.google_search import GoogleSearchAPIWrapper
+# from langchain.utilities.google_search import GoogleSearchAPIWrapper
 from langchain.utilities import GoogleSerperAPIWrapper
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
