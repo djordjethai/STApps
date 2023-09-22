@@ -24,8 +24,8 @@ from langchain.callbacks.tracers.langchain import wait_for_all_tracers
 from vanilla_chain import get_llm_chain
 client = Client()
 
-from xhtml2pdf import pisa
-import io
+# from xhtml2pdf import pisa
+# import io
 
 # these are the environment variables that need to be set for LangSmith to work
 os.environ["LANGCHAIN_PROJECT"] = "Stil"
