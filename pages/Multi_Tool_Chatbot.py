@@ -34,7 +34,6 @@ os.environ["LANGCHAIN_PROJECT"] = "Multi Tool Chatbot"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.langchain.plus"
 os.environ.get("LANGCHAIN_API_KEY")
-SERPER_API_KEY = os.environ.get("SERPER_API_KEY")
 
 
 st.set_page_config(
