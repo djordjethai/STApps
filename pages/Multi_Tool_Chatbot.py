@@ -289,7 +289,6 @@ def main():
                            [reversed_index], icon="👩‍🎓")
 
                 with st.expander("Chain Of Thoughts", expanded=False):
-
                     st.write(captured_output)
                 # Append the messages to the download_str in the reversed order
                 download_str.append(
