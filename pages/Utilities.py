@@ -22,7 +22,8 @@ def main():
                    Utilities održava Pinecone Indeks\n
                    Stats prikazuje statistiku Pinecone Indeksa\n
                    New Login otvara novog korsinika\n
-                   Change Login menja ime korisnika
+                   Change Login menja ime korisnika\n
+                   Import LangSmith projects izvlacu sve bitne info sa LangSmith-a na lokal
                    """)
 
         st.sidebar.success("Odaberite uslugu iz padajuće liste.")
@@ -61,6 +62,10 @@ def main():
         import Positive_Scraper
         Positive_Scraper.main()
 
+    def import_langsmith_proj():
+        import import_LS_proj
+        import_LS_proj.main()
+
     page_names_to_funcs = {
         "Utilities Home": intro,
         "Pinecone Scraping": pinecone_scraping,
@@ -70,7 +75,8 @@ def main():
         "Pinecone Positive": pisi_positive,
         "Pinocone Stats": pcone_stats,
         "New User": new_login_name,
-        "Change Password": change_login_name
+        "Change Password": change_login_name,
+        "Import from LangSmith": import_langsmith_proj,
     }
 
     demo_name = st.sidebar.selectbox("Odaberite aplikaciju", page_names_to_funcs.keys())
