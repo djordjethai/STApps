@@ -44,6 +44,7 @@ def main():
         runs.sort(key=lambda run: run.start_time, reverse=True)
 
         for run in runs:
+            x = False
             feedback_stats = run.feedback_stats
             run_name = run.name
             run_start_time = run.start_time.strftime("%y/%m/%d - %H:%M")
@@ -57,6 +58,7 @@ def main():
                 not access_next_coai_s and
                 not access_next_coai_c):
 
+                x = True
                 feedback = list(client.list_feedback(run_ids=[run.id]))[-1]
 
                 feedback_dict = {
@@ -112,7 +114,8 @@ def main():
                 feedback_dict.update(input_output_dict)
                 access_next_coai_c = False
 
-            feedback_data.append(feedback_dict)
+            if x:
+                feedback_data.append(feedback_dict)
 
         status.text("Target in sight... 🪐")
         if project_name == ls_projects["Zapisnik"]:
