@@ -1,6 +1,5 @@
 import os
 from re import search
-from pandas import DataFrame, concat
 from langsmith import Client
 from datetime import datetime, timedelta
 import streamlit as st
@@ -38,7 +37,6 @@ def main():
         search_func = lambda some_text: search(r"'model_name': '([^']+)', 'temperature': ([^,]+)", some_text)
 
         feedback_data = []
-        input_output_data = []
         access_next_mrdc = False
         access_next_coai_s = False
         access_next_coai_c = False
@@ -62,18 +60,17 @@ def main():
                 feedback = list(client.list_feedback(run_ids=[run.id]))[-1]
 
                 feedback_dict = {
-                    "time fb": run_start_time,
+                    "time": run_start_time,
                     f"{score_name}": feedback_stats[score_name]["avg"],
                     "komentar": feedback.comment,
                     }
-                feedback_data.append(feedback_dict)
                 
                 if run_name == "AgentExecutor":
                     prefix = "Always answer in the Serbian language.\n\n"
                     input_output_dict = {
                         "model": "model",
                         "temp": "temp",
-                        "pitanje": run_inputs["input"][len(prefix):],
+                        "prompt": run_inputs["input"][len(prefix):],
                         "odgovor": run_outputs["output"],
                         }
                     
@@ -90,12 +87,11 @@ def main():
                 input_output_dict = {
                     "model": match.group(1),
                     "temp": match.group(2),
-                    "time io": run_start_time,
                     "pocetni prompt": run_inputs["opis"],
                     "finalni prompt": run_inputs["opis_kraj"],
                     "sazetak": run_outputs["output_text"],
                     }
-                input_output_data.append(input_output_dict)
+                feedback_dict.update(input_output_dict)
                 access_next_mrdc = False
 
             elif run_name == "ChatOpenAI" and access_next_coai_s and run_outputs != None:
@@ -103,35 +99,44 @@ def main():
                 input_output_dict = {
                     "model": run_extra_invoc_params["model_name"],
                     "temp": run_extra_invoc_params["temperature"],
-                    "time io": run_start_time,
                     "prompt": run_inputs['messages'][1]['kwargs']['content'],
                     "odgovor": run_outputs["generations"][0]["text"],
                     }
-                input_output_data.append(input_output_dict)
+                feedback_dict.update(input_output_dict)
                 access_next_coai_s = False
 
             elif run_name == "ChatOpenAI" and access_next_coai_c and run_outputs != None:
                 match = search_func(str(run))
                 input_output_dict["model"] = match.group(1)
                 input_output_dict["temp"] = match.group(2)
-                input_output_data.append(input_output_dict)
+                feedback_dict.update(input_output_dict)
                 access_next_coai_c = False
 
+            feedback_data.append(feedback_dict)
+
         status.text("Target in sight... 🪐")
-        df = concat([DataFrame(feedback_data), DataFrame(input_output_data)], axis=1)
+        if project_name == ls_projects["Zapisnik"]:
+            input_1 = "pocetni prompt"
+            input_2 = "finalni prompt"
+            output = "sazetak"
+        else:
+            input_1 = "prompt"
+            output = "odgovor"
 
-        df = df[~df["komentar"].str.contains("TEST", na=False)]
-        df["komentar"] = df["komentar"].fillna("Nije dat feedback")
+        with open(f"{project_name} - svi komentari.txt", 'w') as all_inputs_file:
+            for d in feedback_data:
+                with open(f"{project_name} {d['time']}.txt", 'w') as individual_file:
+                    individual_file.write(f"model: {d['model']}")
+                    individual_file.write(f"\ttemp: {d['temp']}\n\n")
+                    individual_file.write(f"INPUT:\n {d[input_1]}\n\n")
 
-        status.text("Target reached! 🏝️")
+                    if project_name == ls_projects["Zapisnik"]:
+                        individual_file.write(f"INPUT:\n {d[input_2]}\n\n")
+                    individual_file.write(f"\nOUTPUT:\n {d[output]}")
+                
+                all_inputs_file.write(f"ocena: {d[score_name]}\nkomentar: {d['komentar']}\n\n\n")
 
-        csv = df.to_csv(index=False).encode(encoding='utf-8-sig')
-        if st.download_button(
-            label="Download as CSV",
-            data=csv,
-            file_name=f'{project_name} - info.csv',
-            mime='text/csv',):
-            None
+        status.text("Target reached! 🏝️ - pogledaj cd")
         
 if __name__ == "__main__":
     main()
