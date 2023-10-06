@@ -148,7 +148,7 @@ def main():
                     status.text("Target in sight... 🪐")
                     df = concat([DataFrame(feedback_data), DataFrame(input_output_data)], axis=1)
 
-                    df = df[~df["komentar"].str.contains("TEST", na=False)]
+                    df = df[~df["komentar"].str.contains("TEST", case=False, na=False)]
                     df["komentar"] = df["komentar"].fillna("Nije dat feedback")
 
                     csv = df.to_csv(index=False).encode(encoding='utf-8-sig')
