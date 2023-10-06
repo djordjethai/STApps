@@ -27,7 +27,7 @@ def main():
     options = list(langsmith_projects.keys())
 
     selected_project = inner_col_11.selectbox(
-        label="Select a project", label_visibility="hidden", placeholder="Odaberite app", options=options, index=None)
+        label="Select a project", label_visibility="hidden", placeholder="Odaberite app", options=options)
     
     score_name = inner_col_12.text_input(
         label="Score name", label_visibility="hidden", placeholder="Naziv skora")
