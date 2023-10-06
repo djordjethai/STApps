@@ -127,9 +127,9 @@ def main():
             output = "odgovor"
 
         cwd = os.getcwd()
-        with open(os.path.join(cwd, f"{project_name} - svi komentari.txt", 'w')) as all_inputs_file:
+        with open(os.path.join(cwd, f"{project_name} - svi komentari.txt"), 'w') as all_inputs_file:
             for d in feedback_data:
-                with open(os.path.join(cwd, f"{project_name} {d['time']}.txt", 'w')) as individual_file:
+                with open(os.path.join(cwd, f"{project_name} {d['time']}.txt"), 'w') as individual_file:
                     individual_file.write(f"model: {d['model']}")
                     individual_file.write(f"\ttemp: {d['temp']}\n\n")
                     individual_file.write(f"INPUT:\n {d[input_1]}\n\n")
