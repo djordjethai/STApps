@@ -13,7 +13,7 @@ st_style()
 
 def main():
     client = Client()
-    
+    # testng
     st.subheader("**:rainbow[App za izvlačenje info sa LangSmith sajta]**")
 
     langsmith_projects = {
