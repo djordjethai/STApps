@@ -183,10 +183,6 @@ def st_style():
                 [data-testid="baseButton-header"] {
                     background-color: #DCE4F7;
                 }
-                [data-testid="baseButton-secondary"] {
-                    background-color: #DCE4F7;
-                    font-weight: bold;
-                }
                 
                 [data-testid="stFileUploader"] {
                     border: 3px solid #72B6FC; 
@@ -208,10 +204,6 @@ def st_style():
                 [data-testid="stFileUploader"] button:hover {
                     border: 3px solid #8F78CD;
                     background-color: #CFC8F2;
-                }
-
-                [data-testid="stMarkdownContainer"] {
-                    font-weight: bold;
                 }
 
                 [data-testid="stForm"] {

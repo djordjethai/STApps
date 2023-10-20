@@ -291,4 +291,4 @@ def main():
 
 # Login
 st_style()
-name, authentication_status, username = positive_login(main, "18.09.23. - Nemanja")
+name, authentication_status, username = positive_login(main, "")
