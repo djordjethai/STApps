@@ -221,7 +221,7 @@ def st_style():
                     font-size: 16px;
                     box-shadow: 5px 5px 4px rgba(0,0,0,0.5);
                 }
-                [data-baseweb="textarea"] {
+                [data-testid="stWidgetLabel"] [data-baseweb="textarea"] {
                     border: 3px solid #51B391;
                     box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
                 }
