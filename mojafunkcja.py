@@ -210,6 +210,10 @@ def st_style():
                     background-color: #CFC8F2;
                 }
 
+                [data-testid="stMarkdownContainer"] {
+                    font-weight: bold;
+                }
+
                 [data-testid="stForm"] {
                     border: 3px solid #4ac9a2; 
                     background-color: #ecfdf5; 
