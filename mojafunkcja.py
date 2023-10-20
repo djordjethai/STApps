@@ -115,7 +115,7 @@ def st_style():
                 section > div {padding-top: 1rem;}
 
                 [data-testid="stSidebar"] { 
-                    background: linear-gradient(to right, #8EC0F8, #A2B5FA); 
+                    background: linear-gradient(to right, #8EC0F8, #7bacde); 
                     box-shadow: 15px 15px 10px rgba(0,0,0,0.1);
                     border-radius: 10px;
                 }   
@@ -125,7 +125,7 @@ def st_style():
                     margin-top: -6rem;
                     border-style: solid;
                     border-width: 20px;
-                    border-image: linear-gradient(to right, #8EC0F8, #A2B5FA) 1;
+                    border-image: linear-gradient(to right, #8EC0F8, #7bacde) 1;
                 }
 
                 .stSlider {
