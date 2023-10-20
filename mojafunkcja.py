@@ -231,7 +231,7 @@ def st_style():
                     box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
                 }
                 
-                [data-testid="stWidgetLabel"] [data-baseweb="icon"] {
+                [data-baseweb="select"] [data-baseweb="icon"] {
                     border: 3px solid #51B391;
                     box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
                 }
