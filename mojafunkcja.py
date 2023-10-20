@@ -260,7 +260,7 @@ def positive_login(main, verzija):
 
     if st.session_state["authentication_status"]:
         with st.sidebar:
-            st.caption(f"Ver {verzija}")
+            st.caption(f"{verzija}")
             authenticator.logout('Logout', 'main', key='unique_key')
         # if login success run the program
         main()
