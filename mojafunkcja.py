@@ -232,8 +232,9 @@ def st_style():
                 }
                 
                 [data-baseweb="select"] [data-baseweb="icon"] {
-                    border: 3px solid #51B391;
-                    box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+                    border: 3px solid #eff6ff;
+                    background-color: #ecfdf5; 
+                    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
                 }
 
                 </style>
