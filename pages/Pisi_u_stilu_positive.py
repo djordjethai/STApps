@@ -127,7 +127,7 @@ def main():
                               key="prompt_prva", height=150)
     # izbor osobe
         izbor_osobe = st.selectbox(
-            "Odaberite osobu:", ("", "Miljan Radanovic", "Sean Carroll", "Dragan Varagic", "Neuka Osoba", "JJ Zmaj", "Dragan Simic", "Djordje Medakovic"))
+            "Odaberite osobu:", ("Miljan Radanovic", "Sean Carroll", "Dragan Varagic", "Neuka Osoba", "JJ Zmaj", "Dragan Simic", "Djordje Medakovic"),)
         # ime_osobe = open_file('ime_osobe.txt')
         izbor_stila = open_file('ime_osobe.txt')
         formatted_stil = izbor_stila.format(

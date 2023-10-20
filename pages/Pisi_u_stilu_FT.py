@@ -120,12 +120,12 @@ def main():
             st.session_state.model = "ft:gpt-3.5-turbo-0613:positive-doo:pera-lozac:7rKBrShJ"
             st.session_state.stil = "Pera Lozac knows the answers, but he writes in a short sentences in a style of disfluent person and use verbal crutches"
 
+        st.text("", help="Temperatura za stil treba de je što bliže 1.0")
         st.session_state.temp = st.slider(
             'Set temperature (0=strict, 1=creative)', 0.0, 2.0, step=0.1, value=1.0)
-        st.caption("Temperatura za stil treba de je što bliže 1.0")
+        st.text("", help="Relevantnost za temu određuje koji dokmenti će se korsititi iz indeksa. Ako je vrednost 0.0 onda se koriste svi dokumenti, a za 1.0 samo oni koji su najrelevantniji.")
         st.session_state.thold = st.slider(
             'Set relevance (0=any, 1=strict)', 0.0, 1.0, step=0.1, value=0.5)
-        st.caption("Relevantnost za temu određuje koji dokmenti će se korsititi iz indeksa. Ako je vrednost 0.0 onda se koriste svi dokumenti, a za 1.0 samo oni koji su najrelevantniji.")
 
     # define model, vestorstore and retriever
     llm = ChatOpenAI(model_name=st.session_state.model, temperature=st.session_state.temp,
@@ -142,7 +142,7 @@ def main():
         prompt_t = prompt_file.getvalue().decode("utf-8")
     else:
         prompt_t = " "
-
+    st.text("")
     # Prompt
     with st.form(key='stilovi', clear_on_submit=False):
 
@@ -204,6 +204,7 @@ def main():
 
     # Izrada verzija tekstova za fajlove formnata po izboru
     # html to docx
+    st.text("")
     if st.session_state.odgovor != "":
         with st.expander("FINALNI TEKST", expanded=True):
             st.markdown(st.session_state.odgovor)
