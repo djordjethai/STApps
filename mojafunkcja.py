@@ -233,7 +233,13 @@ def st_style():
                 
                 [data-baseweb="select"] [data-baseweb="icon"] {
                     border: 3px solid #eff6ff;
-                    background-color: #ecfdf5; 
+                    background-color: #eff6ff; 
+                    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+                }
+
+                [data-baseweb="select"] [data-baseweb="icon"]:hover {
+                    border: 3px solid #d8e3f3;
+                    background-color: #d8e3f3; 
                     box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
                 }
 
