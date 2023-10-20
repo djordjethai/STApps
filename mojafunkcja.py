@@ -112,7 +112,7 @@ def st_style():
                 MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
                 #root > div:nth-child(1) > div > div > div > div > \
-                section > div {padding-top: 2rem;}
+                section > div {padding-top: 1rem;}
 
                 [data-testid="stSidebar"] { 
                     background: linear-gradient(to right, #8EC0F8, #A2B5FA); 
