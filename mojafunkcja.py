@@ -120,7 +120,7 @@ def st_style():
                     border-radius: 10px;
                 }   
                 [data-testid="stSidebarNav"] {
-                    background-color: #faf5ff;
+                    background-color: #ffffff;
                     font-weight: bold;
                     margin-top: -6rem;
                     border-style: solid;
