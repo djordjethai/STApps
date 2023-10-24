@@ -1,7 +1,7 @@
 [theme]
 primaryColor="red"
 backgroundColor="#ffffff"
-secondaryBackgroundColor="#e8ecf5"
+secondaryBackgroundColor="#ebeef7"
 font="serif"
 
 [browser]
